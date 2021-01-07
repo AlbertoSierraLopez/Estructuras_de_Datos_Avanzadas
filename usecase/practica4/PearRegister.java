@@ -7,7 +7,7 @@ public class PearRegister {
         throw new RuntimeException("Not yet implemented");
     }
 
-    public void addProduct(Product producto, Iterable<PearStore> stores){
+    /*public void addProduct(Product producto, Iterable<PearStore> stores){
         throw new RuntimeException("Not yet implemented");
     }
 
@@ -29,5 +29,5 @@ public class PearRegister {
 
     public boolean productExists(Product product){
         throw new RuntimeException("Not yet implemented");
-    }
+    }*/
 }

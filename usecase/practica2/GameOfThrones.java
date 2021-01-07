@@ -6,9 +6,9 @@ public class GameOfThrones {
         throw new RuntimeException("Not yet implemented");
     }
 
-    public LinkedTree<FamilyMember> getFamily(String surname){
+    /*public LinkedTree<FamilyMember> getFamily(String surname){
         throw new RuntimeException("Not yet implemented");
-    }
+    }*/
 
     public String findHeir(String surname){
         throw new RuntimeException("Not yet implemented");

@@ -256,7 +256,28 @@ public class LinkedTree<E> implements NAryTree<E> {
     @Override
     public void moveSubtree(Position<E> pOrig, Position<E> pDest) throws RuntimeException {
         //TODO: Practica 2 Ejercicio 1
+        TreeNode<E> nOrig = checkPosition(pOrig);
+        TreeNode<E> nDest = checkPosition(pDest);
+        if (nOrig == nDest) {
+            throw new RuntimeException("Both positions are the same");
+        }
+        if (isRoot(pOrig)) {
+            throw new RuntimeException("Root node can't be moved");
+        }
 
+        // Comprobar que pDest no es descendiente de pOrig
+        TreeNode<E> cursor = nDest;
+        while (!isRoot(cursor)) {
+            if (cursor == nOrig) {
+                throw new RuntimeException("Target position can't be a sub tree of origin");
+            }
+            cursor = cursor.getParent();
+        }
+
+        // Realizar el trasvase
+        nOrig.getParent().getChildren().remove(nOrig);
+        nOrig.setParent(nDest);
+        nDest.getChildren().add(nOrig);
     }
 
 }

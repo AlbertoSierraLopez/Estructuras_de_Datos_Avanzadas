@@ -53,7 +53,7 @@ public class PostorderIterator<E> implements Iterator<Position<E>> {
 
     @Override
     public boolean hasNext() {
-        return stack.isEmpty();
+        return !stack.isEmpty();
     }
 
     @Override

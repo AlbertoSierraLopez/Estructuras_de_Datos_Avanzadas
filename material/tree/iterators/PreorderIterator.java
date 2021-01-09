@@ -52,7 +52,7 @@ public class PreorderIterator<E> implements Iterator<Position<E>> {
 
     @Override
     public boolean hasNext() {
-        return queue.isEmpty();
+        return !queue.isEmpty();
     }
 
     @Override

@@ -1,13 +1,8 @@
 package material.test.practica2;
 
 import material.Position;
-import material.tree.iterators.FrontIterator;
-//import material.tree.iterators.InternalNodeIterator;
-import material.tree.iterators.PostorderIterator;
-import material.tree.iterators.PreorderIterator;
+import material.tree.iterators.*;
 import material.tree.narytree.LinkedTree;
-
-import java.util.function.Predicate;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -15,11 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class IteratorTest {
     private LinkedTree<Integer> tree;
     private Position<Integer>[] pos;
-
-    PostorderIterator<Integer> postIterator;
-    PreorderIterator<Integer> preIterator;
-    FrontIterator<Integer> frontIterator;
-    //InternalNodeIterator<Integer> internalIterator;
 
     @org.junit.jupiter.api.BeforeEach
     void setUp() {
@@ -47,37 +37,37 @@ class IteratorTest {
 
     @org.junit.jupiter.api.Test
     void postorderIteratorTest() {
-        postIterator = new PostorderIterator<>(tree);
+        PostorderIteratorLazy it = new PostorderIteratorLazy<>(tree);
         int[] expected = {5, 1, 6, 9, 10, 11, 7, 2, 8, 3, 4, 0};
         int i = 0;
-        while (postIterator.hasNext()) {
-            assertEquals(postIterator.next().getElement(), expected[i]);
+        while (it.hasNext()) {
+            assertEquals(it.next().getElement(), expected[i]);
             i++;
         }
     }
 
     @org.junit.jupiter.api.Test
     void preorderIteratorTest() {
-        preIterator = new PreorderIterator<>(tree);
+        PreorderIteratorLazy<Integer> it = new PreorderIteratorLazy<>(tree);
         int[] expected = {0, 1, 5, 2, 6, 7, 9, 10, 11, 3, 8, 4};
         int i = 0;
-        while (preIterator.hasNext()) {
-            assertEquals(preIterator.next().getElement(), expected[i]);
+        while (it.hasNext()) {
+            assertEquals(it.next().getElement(), expected[i]);
             i++;
         }
     }
 
     @org.junit.jupiter.api.Test
     void preorderIteratorStartPositionTest() {
-        preIterator = new PreorderIterator<>(tree, pos[2]);
+        PreorderIteratorLazy<Integer> it = new PreorderIteratorLazy<>(tree, pos[2]);
         int[] expected = {2, 6, 7, 9, 10, 11};
         int i = 0;
-        while (preIterator.hasNext()) {
-            assertEquals(preIterator.next().getElement(), expected[i]);
+        while (it.hasNext()) {
+            assertEquals(it.next().getElement(), expected[i]);
             i++;
         }
     }
-
+/*
     @org.junit.jupiter.api.Test
     void preorderIteratorPredicateTest() {
         Predicate<Position<Integer>> isEven = p -> p.getElement() % 2 != 0;
@@ -89,10 +79,10 @@ class IteratorTest {
             i++;
         }
     }
-
+*/
     @org.junit.jupiter.api.Test
     void frontIteratorTest() {
-        frontIterator = new FrontIterator<>(tree);
+        FrontIterator<Integer> frontIterator = new FrontIterator<>(tree);
         int[] expected = {4, 5, 6, 8, 9, 10, 11};
         int i = 0;
         while (frontIterator.hasNext()) {
@@ -100,7 +90,7 @@ class IteratorTest {
             i++;
         }
     }
-    /*
+/*
     @org.junit.jupiter.api.Test
     void internalNodeIteratorTest() {
         internalIterator = new InternalNodeIterator<>(tree);
@@ -111,5 +101,5 @@ class IteratorTest {
             i++;
         }
     }
-    */
+*/
 }

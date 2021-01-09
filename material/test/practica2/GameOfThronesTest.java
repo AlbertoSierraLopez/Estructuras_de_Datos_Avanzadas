@@ -4,14 +4,16 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import usecase.practica2.GameOfThrones;
 
+import java.io.FileNotFoundException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class GameOfThronesTest {
     private GameOfThrones got;
-    private String path;
+    private String path = "usecase/practica2/GOT_Families.txt";
 
     @BeforeEach
-    void setUp() {
+    void setUp() throws FileNotFoundException {
         got = new GameOfThrones();
         got.loadFile(path);
     }

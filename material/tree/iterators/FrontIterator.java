@@ -3,7 +3,9 @@ package material.tree.iterators;
 import material.Position;
 import material.tree.Tree;
 
+import java.util.ArrayDeque;
 import java.util.Iterator;
+import java.util.Queue;
 
 /**
  * Front iteartor for trees.
@@ -12,20 +14,24 @@ import java.util.Iterator;
  * @author jvelez, JD. Quintana
  */
 public class FrontIterator<T> implements Iterator<Position<T>> {
-
+    private Tree<T> tree;
+    private Queue<Position<T>> queue;
 
     public FrontIterator(Tree<T> tree) {
-        throw new RuntimeException("Not yet implemented");
+        this.tree = tree;
+        queue = new ArrayDeque<>();
+        queue.add(tree.root());
     }
 
-
     public FrontIterator(Tree<T> tree, Position<T> node) {
-        throw new RuntimeException("Not yet implemented");
+        this.tree = tree;
+        queue = new ArrayDeque<>();
+        queue.add(node);
     }
 
     @Override
     public boolean hasNext() {
-        throw new RuntimeException("Not yet implemented");
+        return !queue.isEmpty();
     }
 
     /**
@@ -33,11 +39,14 @@ public class FrontIterator<T> implements Iterator<Position<T>> {
      */
     @Override
     public Position<T> next() {
-        throw new RuntimeException("Not yet implemented");
+        Position<T> node;
+        do {
+            node = queue.poll();
+            for (Position<T> child : tree.children(node)) {
+                queue.add(child);
+            }
+        } while (tree.isInternal(node));
+        return node;
     }
 
-    @Override
-    public void remove() {
-        throw new RuntimeException("Not yet implemented");
-    }
 }

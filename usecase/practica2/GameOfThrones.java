@@ -11,13 +11,15 @@ import java.util.Scanner;
 
 public class GameOfThrones {
     Map<String, FamilyMember> memberMap;
+    Map<String, String> namesMap;
     LinkedTree<FamilyMember> familiesTree;
 //  Map<String, LinkedTree<FamilyMember>> familiesMap;
 
     public GameOfThrones() {
         memberMap = new HashMap<>();
+        namesMap = new HashMap<>();
         familiesTree = new LinkedTree<>();
-        familiesTree.addRoot(null); // La raí del arbol de familas no debería ser accesible, no es nada
+        familiesTree.addRoot(null); // La raíz del arbol de familas no debería ser accesible, no es nada
     }
 
     public void loadFile(String pathToFile) throws FileNotFoundException {
@@ -32,6 +34,7 @@ public class GameOfThrones {
 
             FamilyMember member = new FamilyMember(split[0], split[2], split[3], split[4].charAt(1), Integer.parseInt(split[5]),null);
             memberMap.put(split[0], member);
+            namesMap.put(split[2] + " " + split[3], split[0]);
 
             line = scanner.nextLine();
         }
@@ -55,18 +58,91 @@ public class GameOfThrones {
     }
 
     public LinkedTree<FamilyMember> getFamily(String surname){
-        throw new RuntimeException("Not yet implemented");
+        Position<FamilyMember> familyHead = null;
+        // Encontrar la familia
+        for (Position<FamilyMember> p : familiesTree.children(familiesTree.root())) {
+            if (p.getElement().getSurname().equals(surname)) {
+                familyHead = p;
+                break;
+            }
+        }
+
+
+        if (familyHead == null) {
+            throw new RuntimeException("The family doesn't exist");
+        }
+
+        // Crear el nuevo arbol a devolver
+        LinkedTree<FamilyMember> subTree = new LinkedTree<>();
+        Position<FamilyMember> subRoot = subTree.addRoot(familyHead.getElement());
+        createTree(subRoot, familyHead, subTree);
+
+        return subTree;
+    }
+
+    private void createTree(Position<FamilyMember> subNode, Position<FamilyMember> node, LinkedTree<FamilyMember> subTree) {
+        for (Position<FamilyMember> child : familiesTree.children(node)) {
+            Position<FamilyMember> newSubNode = subTree.add(child.getElement(), subNode);
+            createTree(newSubNode, child, subTree);
+        }
     }
 
     public String findHeir(String surname){
-        throw new RuntimeException("Not yet implemented");
+        Position<FamilyMember> familyHead = null;
+        // Encontrar la familia
+        for (Position<FamilyMember> p : familiesTree.children(familiesTree.root())) {
+            if (p.getElement().getSurname().equals(surname)) {
+                familyHead = p;
+                break;
+            }
+        }
+
+        if (familyHead == null) {
+            throw new RuntimeException("The family doesn't exist");
+        }
+
+        String heir = null;
+        String femaleHeir = null;
+        // Encontrar al heredero/a
+        int maleHeirAge = -1;
+        int femaleHeirAge = -1;
+        for (Position<FamilyMember> child : familiesTree.children(familyHead)) {
+            if (child.getElement().getGender() == 'M' && child.getElement().getAge() > maleHeirAge) {
+                heir = child.getElement().getName() + " " + child.getElement().getSurname();
+                maleHeirAge = child.getElement().getAge();
+            } else if (child.getElement().getGender() == 'F' && child.getElement().getAge() > femaleHeirAge) {
+                femaleHeir = child.getElement().getName() + " " + child.getElement().getSurname();
+                femaleHeirAge = child.getElement().getAge();
+            }
+        }
+
+        if (heir != null) {
+            return heir;
+        } else if (femaleHeir != null){
+            return femaleHeir;
+        } else {
+            throw new RuntimeException("No heir was found");
+        }
     }
 
     public void changeFamily(String memberName, String newParent){
-        throw new RuntimeException("Not yet implemented");
+        Position<FamilyMember> pOrig = memberMap.get(namesMap.get(memberName)).getPosition();
+        Position<FamilyMember> pDest = memberMap.get(namesMap.get(newParent)).getPosition();
+
+        familiesTree.moveSubtree(pOrig, pDest);
     }
 
     public boolean areFamily(String name1, String name2){
-        throw new RuntimeException("Not yet implemented");
+        Position<FamilyMember> p1 = memberMap.get(namesMap.get(name1)).getPosition();
+        Position<FamilyMember> p2 = memberMap.get(namesMap.get(name2)).getPosition();
+
+        return getFamilyHead(p1) == getFamilyHead(p2);
+    }
+
+    private Position<FamilyMember> getFamilyHead(Position<FamilyMember> p) {
+        while (!familiesTree.isRoot(familiesTree.parent(p))) {
+            p = familiesTree.parent(p);
+        }
+        return p;
     }
 }

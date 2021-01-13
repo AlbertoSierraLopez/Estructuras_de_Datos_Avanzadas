@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class GameOfThrones {
     Map<String, FamilyMember> memberMap;
-    Map<String, String> namesMap;
+    Map<String, FamilyMember> namesMap;
     LinkedTree<FamilyMember> familiesTree;
 //  Map<String, LinkedTree<FamilyMember>> familiesMap;
 
@@ -34,7 +34,7 @@ public class GameOfThrones {
 
             FamilyMember member = new FamilyMember(split[0], split[2], split[3], split[4].charAt(1), Integer.parseInt(split[5]),null);
             memberMap.put(split[0], member);
-            namesMap.put(split[2] + " " + split[3], split[0]);
+            namesMap.put(split[2] + " " + split[3], member);
 
             line = scanner.nextLine();
         }
@@ -126,15 +126,15 @@ public class GameOfThrones {
     }
 
     public void changeFamily(String memberName, String newParent){
-        Position<FamilyMember> pOrig = memberMap.get(namesMap.get(memberName)).getPosition();
-        Position<FamilyMember> pDest = memberMap.get(namesMap.get(newParent)).getPosition();
+        Position<FamilyMember> pOrig = namesMap.get(memberName).getPosition();
+        Position<FamilyMember> pDest = namesMap.get(newParent).getPosition();
 
         familiesTree.moveSubtree(pOrig, pDest);
     }
 
     public boolean areFamily(String name1, String name2){
-        Position<FamilyMember> p1 = memberMap.get(namesMap.get(name1)).getPosition();
-        Position<FamilyMember> p2 = memberMap.get(namesMap.get(name2)).getPosition();
+        Position<FamilyMember> p1 = namesMap.get(name1).getPosition();
+        Position<FamilyMember> p2 = namesMap.get(name2).getPosition();
 
         return getFamilyHead(p1) == getFamilyHead(p2);
     }

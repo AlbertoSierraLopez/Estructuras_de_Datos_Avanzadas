@@ -1,0 +1,557 @@
+{
+ "statuses": [
+  {
+   "created_at": "Mon Nov 27 20:38:39 +0000 2017",
+   "id": 935246514565369856,
+   "id_str": "935246514565369856",
+   "text": "Para quienes creen que la Tierra es plana https://t.co/VyDIevIVS4",
+   "truncated": false,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/VyDIevIVS4",
+      "expanded_url": "https://es.rt.com/5hoo",
+      "display_url": "es.rt.com/5hoo",
+      "indices": [
+       42,
+       65
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 100731315,
+    "id_str": "100731315",
+    "name": "RT en Espa\u00f1ol",
+    "screen_name": "ActualidadRT",
+    "location": "",
+    "description": "El primer canal de TV ruso en espa\u00f1ol con alcance mundial. Les brindamos las noticias que realmente importan. Lo m\u00e1s relevante del panorama internacional, en RT",
+    "url": "http://t.co/NvQkmzIWCT",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "http://t.co/NvQkmzIWCT",
+        "expanded_url": "http://actualidad.rt.com/",
+        "display_url": "actualidad.rt.com",
+        "indices": [
+         0,
+         22
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 2816481,
+    "friends_count": 74,
+    "listed_count": 10619,
+    "created_at": "Thu Dec 31 09:33:16 +0000 2009",
+    "favourites_count": 21,
+    "utc_offset": 10800,
+    "time_zone": "Moscow",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 428029,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "005E15",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/437911018342076417/H3UVdRxc.png",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/437911018342076417/H3UVdRxc.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/841920210588336129/_Ia1H1FF_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/841920210588336129/_Ia1H1FF_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/100731315/1489574319",
+    "profile_link_color": "5CBA1D",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "042107",
+    "profile_text_color": "FFFFFF",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 40,
+   "favorite_count": 49,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Tue Nov 28 07:45:49 +0000 2017",
+   "id": 935414413057777664,
+   "id_str": "935414413057777664",
+   "text": "Un astrof\u00edsico se mofa de los partidarios de la Tierra plana https://t.co/VyDIevIVS4",
+   "truncated": false,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/VyDIevIVS4",
+      "expanded_url": "https://es.rt.com/5hoo",
+      "display_url": "es.rt.com/5hoo",
+      "indices": [
+       61,
+       84
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 100731315,
+    "id_str": "100731315",
+    "name": "RT en Espa\u00f1ol",
+    "screen_name": "ActualidadRT",
+    "location": "",
+    "description": "El primer canal de TV ruso en espa\u00f1ol con alcance mundial. Les brindamos las noticias que realmente importan. Lo m\u00e1s relevante del panorama internacional, en RT",
+    "url": "http://t.co/NvQkmzIWCT",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "http://t.co/NvQkmzIWCT",
+        "expanded_url": "http://actualidad.rt.com/",
+        "display_url": "actualidad.rt.com",
+        "indices": [
+         0,
+         22
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 2816481,
+    "friends_count": 74,
+    "listed_count": 10619,
+    "created_at": "Thu Dec 31 09:33:16 +0000 2009",
+    "favourites_count": 21,
+    "utc_offset": 10800,
+    "time_zone": "Moscow",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 428029,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "005E15",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/437911018342076417/H3UVdRxc.png",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/437911018342076417/H3UVdRxc.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/841920210588336129/_Ia1H1FF_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/841920210588336129/_Ia1H1FF_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/100731315/1489574319",
+    "profile_link_color": "5CBA1D",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "042107",
+    "profile_text_color": "FFFFFF",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 18,
+   "favorite_count": 26,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Sun Nov 26 19:08:28 +0000 2017",
+   "id": 934861428321935365,
+   "id_str": "934861428321935365",
+   "text": "Recorrido en las comunidades de Rey de Reyes, Villa Eclipse y El Valle junto al prox. alcalde @jcfernandezm. Vemos\u2026 https://t.co/3gQjeNHxGP",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "jcfernandezm",
+      "name": "Juan C Fern\u00e1ndez M",
+      "id": 80015265,
+      "id_str": "80015265",
+      "indices": [
+       94,
+       107
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/3gQjeNHxGP",
+      "expanded_url": "https://twitter.com/i/web/status/934861428321935365",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       116,
+       139
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 71076388,
+    "id_str": "71076388",
+    "name": "Manuel Rosales",
+    "screen_name": "manuelrosalesg",
+    "location": "",
+    "description": "Candidato Presidencial 2006. Gobernador del Zulia 2000-2008. Alcalde de Maracaibo 1996-1999. Diputado 1983-1994. Fundador @partidoUNT.",
+    "url": "https://t.co/mm3Aihy1IO",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/mm3Aihy1IO",
+        "expanded_url": "http://manuelrosalesporvenezuela.com/manuel-rosales-la-agenda-politica-es-diferente-al-sufrimiento-d",
+        "display_url": "manuelrosalesporvenezuela.com/manuel-rosales\u2026",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 516398,
+    "friends_count": 40388,
+    "listed_count": 1633,
+    "created_at": "Wed Sep 02 21:08:37 +0000 2009",
+    "favourites_count": 1525,
+    "utc_offset": -14400,
+    "time_zone": "Caracas",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 18278,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/38622286/foto_satelital_MR.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/38622286/foto_satelital_MR.jpg",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/930431454647128065/nOXWIvnA_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/930431454647128065/nOXWIvnA_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/71076388/1510877573",
+    "profile_link_color": "0F17BA",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 236,
+   "favorite_count": 121,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Wed Nov 22 08:05:00 +0000 2017",
+   "id": 933244913675669504,
+   "id_str": "933244913675669504",
+   "text": "Liverpool no perdona las mentiras del peri\u00f3dico tras la muerte de 96 personas: eclipse total a The Sun d\u00e9cadas desp\u2026 https://t.co/LATO1Xs94m",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/LATO1Xs94m",
+      "expanded_url": "https://twitter.com/i/web/status/933244913675669504",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 2905232597,
+    "id_str": "2905232597",
+    "name": "El Espa\u00f1ol",
+    "screen_name": "elespanolcom",
+    "location": "Madrid",
+    "description": "Seleccionamos las mejores historias. S\u00edguenos tambi\u00e9n en @podium_ee, @cultura_ee, @ciencia_ee, @jaleos_ee, @empresas_ee, @hola_elespanol y @elespanolMARCAS",
+    "url": "https://t.co/afj5IYKs7n",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/afj5IYKs7n",
+        "expanded_url": "https://www.elespanol.com/",
+        "display_url": "elespanol.com",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 310686,
+    "friends_count": 687,
+    "listed_count": 4300,
+    "created_at": "Thu Dec 04 16:09:18 +0000 2014",
+    "favourites_count": 14168,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 126642,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/921264529090195457/uIoH_NDt_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/921264529090195457/uIoH_NDt_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2905232597/1511868381",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 20,
+   "favorite_count": 21,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Tue Nov 21 21:19:01 +0000 2017",
+   "id": 933082345703387143,
+   "id_str": "933082345703387143",
+   "text": "Hoy en #cielosESA...\nNos vamos hasta al Cabo de Gata, Almer\u00eda\ud83c\uddea\ud83c\uddf8 a ver el eclipse lunar del pasado verano con\u2026 https://t.co/8UtIes7xTL",
+   "truncated": true,
+   "entities": {
+    "hashtags": [
+     {
+      "text": "cielosESA",
+      "indices": [
+       7,
+       17
+      ]
+     }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/8UtIes7xTL",
+      "expanded_url": "https://twitter.com/i/web/status/933082345703387143",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       110,
+       133
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 256889809,
+    "id_str": "256889809",
+    "name": "ESA Espa\u00f1a",
+    "screen_name": "esa_es",
+    "location": "",
+    "description": "Agencia Espacial Europea, toda la informaci\u00f3n en #espa\u00f1ol sobre el #espacio",
+    "url": "https://t.co/aj7fQcVdCp",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/aj7fQcVdCp",
+        "expanded_url": "http://bit.ly/2e2qv89",
+        "display_url": "bit.ly/2e2qv89",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 345120,
+    "friends_count": 487,
+    "listed_count": 1528,
+    "created_at": "Thu Feb 24 08:22:10 +0000 2011",
+    "favourites_count": 4307,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": true,
+    "verified": true,
+    "statuses_count": 15560,
+    "lang": "en-gb",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "011A29",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000151670667/m0Q4LJlx.png",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000151670667/m0Q4LJlx.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/882526101570023424/-Dn8bhrG_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/882526101570023424/-Dn8bhrG_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/256889809/1499353987",
+    "profile_link_color": "0098DB",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "F6F6F6",
+    "profile_text_color": "4D4F53",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 27,
+   "favorite_count": 54,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  }
+ ],
+ "search_metadata": {
+  "completed_in": 0.057,
+  "max_id": 0,
+  "max_id_str": "0",
+  "query": "eclipse",
+  "count": 50,
+  "since_id": 0,
+  "since_id_str": "0"
+ }
+}

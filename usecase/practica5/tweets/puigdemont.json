@@ -1,0 +1,1296 @@
+{
+ "statuses": [
+  {
+   "created_at": "Tue Nov 28 10:16:49 +0000 2017",
+   "id": 935452410306232321,
+   "id_str": "935452410306232321",
+   "text": "Perdimos la EMA, + de 2500 empresas han marchado y si los planes de Puigdemont siguen adelante podr\u00edamos perder la\u2026 https://t.co/8ZQCv6LQw4",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/8ZQCv6LQw4",
+      "expanded_url": "https://twitter.com/i/web/status/935452410306232321",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       116,
+       139
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 552561770,
+    "id_str": "552561770",
+    "name": "In\u00e9s Arrimadas",
+    "screen_name": "InesArrimadas",
+    "location": "Barcelona",
+    "description": "Derecho y ADE. Consultora. Presidenta del Grupo de @CiutadansCs y Jefa de la Oposici\u00f3n en el Parlament de Catalu\u00f1a. Portavoz del Comit\u00e9 Ejecutivo nacional.",
+    "url": "https://t.co/2fZ28o6US7",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/2fZ28o6US7",
+        "expanded_url": "https://www.instagram.com/inesarrimadas/",
+        "display_url": "instagram.com/inesarrimadas/",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 325212,
+    "friends_count": 912,
+    "listed_count": 1589,
+    "created_at": "Fri Apr 13 09:35:57 +0000 2012",
+    "favourites_count": 277,
+    "utc_offset": 7200,
+    "time_zone": "Athens",
+    "geo_enabled": true,
+    "verified": true,
+    "statuses_count": 870,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/922019827727859712/huUSh2Z__normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/922019827727859712/huUSh2Z__normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/552561770/1492769639",
+    "profile_link_color": "FF691F",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 1127,
+   "favorite_count": 1955,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Tue Nov 28 18:36:24 +0000 2017",
+   "id": 935578134338039808,
+   "id_str": "935578134338039808",
+   "text": "Puigdemont y Junqueras son unos m\u00e1quinas uniendo a los espa\u00f1oles \ud83d\ude2c https://t.co/Jr4KPdq8yS",
+   "truncated": false,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/Jr4KPdq8yS",
+      "expanded_url": "http://www.lavozdegalicia.es/noticia/galicia/2017/11/27/gitanos-gallegos-reconocen-guardia-civil-defender-unidad-espana/0003_201711201711271511795635152.htm",
+      "display_url": "lavozdegalicia.es/noticia/galici\u2026",
+      "indices": [
+       67,
+       90
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 108994652,
+    "id_str": "108994652",
+    "name": "Albert Rivera",
+    "screen_name": "Albert_Rivera",
+    "location": "Espa\u00f1a",
+    "description": "Catalunya \u00e9s la meva terra, Espa\u00f1a es mi pa\u00eds and Europe is our future. Perfil oficial de Albert Rivera. Presidente de @CiudadanosCs.",
+    "url": "https://t.co/asd00NhasJ",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/asd00NhasJ",
+        "expanded_url": "http://www.ciudadanos-cs.org",
+        "display_url": "ciudadanos-cs.org",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 937804,
+    "friends_count": 2441,
+    "listed_count": 4789,
+    "created_at": "Wed Jan 27 16:57:22 +0000 2010",
+    "favourites_count": 10736,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 50667,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/434363038028689409/canMJjhT.jpeg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/434363038028689409/canMJjhT.jpeg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/934506148799090688/eEnKkOxZ_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/934506148799090688/eEnKkOxZ_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/108994652/1507985383",
+    "profile_link_color": "FA743E",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "D8DAFC",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 340,
+   "favorite_count": 659,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Tue Nov 28 15:21:15 +0000 2017",
+   "id": 935529024016781317,
+   "id_str": "935529024016781317",
+   "text": "Mas y Puigdemont inyectaron a TV3 m\u00e1s de 1.800 millones de euros desde 2011 https://t.co/RzKRvQiFk3 https://t.co/IzyYI0ka2d",
+   "truncated": false,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/RzKRvQiFk3",
+      "expanded_url": "https://www.google.es/amp/s/www.elespanol.com/economia/medios/20171127/265224422_0.amp.html",
+      "display_url": "google.es/amp/s/www.eles\u2026",
+      "indices": [
+       76,
+       99
+      ]
+     }
+    ],
+    "media": [
+     {
+      "id": 935529016056049664,
+      "id_str": "935529016056049664",
+      "indices": [
+       100,
+       123
+      ],
+      "media_url": "http://pbs.twimg.com/media/DPuqrvcXcAADvkV.jpg",
+      "media_url_https": "https://pbs.twimg.com/media/DPuqrvcXcAADvkV.jpg",
+      "url": "https://t.co/IzyYI0ka2d",
+      "display_url": "pic.twitter.com/IzyYI0ka2d",
+      "expanded_url": "https://twitter.com/Tonicanto1/status/935529024016781317/photo/1",
+      "type": "photo",
+      "sizes": {
+       "medium": {
+        "w": 582,
+        "h": 437,
+        "resize": "fit"
+       },
+       "thumb": {
+        "w": 150,
+        "h": 150,
+        "resize": "crop"
+       },
+       "large": {
+        "w": 582,
+        "h": 437,
+        "resize": "fit"
+       },
+       "small": {
+        "w": 582,
+        "h": 437,
+        "resize": "fit"
+       }
+      }
+     }
+    ]
+   },
+   "extended_entities": {
+    "media": [
+     {
+      "id": 935529016056049664,
+      "id_str": "935529016056049664",
+      "indices": [
+       100,
+       123
+      ],
+      "media_url": "http://pbs.twimg.com/media/DPuqrvcXcAADvkV.jpg",
+      "media_url_https": "https://pbs.twimg.com/media/DPuqrvcXcAADvkV.jpg",
+      "url": "https://t.co/IzyYI0ka2d",
+      "display_url": "pic.twitter.com/IzyYI0ka2d",
+      "expanded_url": "https://twitter.com/Tonicanto1/status/935529024016781317/photo/1",
+      "type": "photo",
+      "sizes": {
+       "medium": {
+        "w": 582,
+        "h": 437,
+        "resize": "fit"
+       },
+       "thumb": {
+        "w": 150,
+        "h": 150,
+        "resize": "crop"
+       },
+       "large": {
+        "w": 582,
+        "h": 437,
+        "resize": "fit"
+       },
+       "small": {
+        "w": 582,
+        "h": 437,
+        "resize": "fit"
+       }
+      }
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 249122306,
+    "id_str": "249122306",
+    "name": "Toni Cant\u00f3",
+    "screen_name": "Tonicanto1",
+    "location": "",
+    "description": "Actor.Diputado de Ciudadanos por la provincia de Valencia en la 12\u00aa legislatura.Presidente de la comisi\u00f3n de la lucha contra la corrupci\u00f3n y por la regeneraci\u00f3n",
+    "url": null,
+    "entities": {
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 216764,
+    "friends_count": 1914,
+    "listed_count": 2491,
+    "created_at": "Tue Feb 08 12:16:57 +0000 2011",
+    "favourites_count": 2677,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 45475,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/810553492003844096/yhXB9xXt_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/810553492003844096/yhXB9xXt_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/249122306/1493829864",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 325,
+   "favorite_count": 237,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Mon Nov 27 15:34:16 +0000 2017",
+   "id": 935169911323799552,
+   "id_str": "935169911323799552",
+   "text": "Puigdemont no descarta la v\u00eda unilateral y dice que lo de acatar el 155 es solo una \u201ccomprensible estrategia de def\u2026 https://t.co/kYac7zVoXO",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/kYac7zVoXO",
+      "expanded_url": "https://twitter.com/i/web/status/935169911323799552",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 552561770,
+    "id_str": "552561770",
+    "name": "In\u00e9s Arrimadas",
+    "screen_name": "InesArrimadas",
+    "location": "Barcelona",
+    "description": "Derecho y ADE. Consultora. Presidenta del Grupo de @CiutadansCs y Jefa de la Oposici\u00f3n en el Parlament de Catalu\u00f1a. Portavoz del Comit\u00e9 Ejecutivo nacional.",
+    "url": "https://t.co/2fZ28o6US7",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/2fZ28o6US7",
+        "expanded_url": "https://www.instagram.com/inesarrimadas/",
+        "display_url": "instagram.com/inesarrimadas/",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 325212,
+    "friends_count": 912,
+    "listed_count": 1589,
+    "created_at": "Fri Apr 13 09:35:57 +0000 2012",
+    "favourites_count": 277,
+    "utc_offset": 7200,
+    "time_zone": "Athens",
+    "geo_enabled": true,
+    "verified": true,
+    "statuses_count": 870,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/922019827727859712/huUSh2Z__normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/922019827727859712/huUSh2Z__normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/552561770/1492769639",
+    "profile_link_color": "FF691F",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 2030,
+   "favorite_count": 3869,
+   "favorited": false,
+   "retweeted": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Tue Nov 28 14:49:25 +0000 2017",
+   "id": 935521013978292224,
+   "id_str": "935521013978292224",
+   "text": "\"Puigdemont es el espantap\u00e1jaros de las empresas en Catalu\u00f1a\" v\u00eda @OndaCero_es  https://t.co/wDqZ9lD7mM",
+   "truncated": false,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "OndaCero_es",
+      "name": "Onda Cero",
+      "id": 196572692,
+      "id_str": "196572692",
+      "indices": [
+       66,
+       78
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/wDqZ9lD7mM",
+      "expanded_url": "http://www.ondacero.es/noticias/espana/albert-rivera-puigdemont-espantapajaros-empresas-cataluna_201711285a1d4dd80cf2b940af4fffd8.html",
+      "display_url": "ondacero.es/noticias/espan\u2026",
+      "indices": [
+       80,
+       103
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 108994652,
+    "id_str": "108994652",
+    "name": "Albert Rivera",
+    "screen_name": "Albert_Rivera",
+    "location": "Espa\u00f1a",
+    "description": "Catalunya \u00e9s la meva terra, Espa\u00f1a es mi pa\u00eds and Europe is our future. Perfil oficial de Albert Rivera. Presidente de @CiudadanosCs.",
+    "url": "https://t.co/asd00NhasJ",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/asd00NhasJ",
+        "expanded_url": "http://www.ciudadanos-cs.org",
+        "display_url": "ciudadanos-cs.org",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 937804,
+    "friends_count": 2441,
+    "listed_count": 4789,
+    "created_at": "Wed Jan 27 16:57:22 +0000 2010",
+    "favourites_count": 10736,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 50667,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/434363038028689409/canMJjhT.jpeg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/434363038028689409/canMJjhT.jpeg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/934506148799090688/eEnKkOxZ_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/934506148799090688/eEnKkOxZ_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/108994652/1507985383",
+    "profile_link_color": "FA743E",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "D8DAFC",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 439,
+   "favorite_count": 899,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Mon Nov 27 20:14:55 +0000 2017",
+   "id": 935240540060356609,
+   "id_str": "935240540060356609",
+   "text": "\"No sorprenden las declaraciones de Puigdemont. Vista la din\u00e1mica en la que se ha instalado, me espero cualquier co\u2026 https://t.co/64sy5S6JXD",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/64sy5S6JXD",
+      "expanded_url": "https://twitter.com/i/web/status/935240540060356609",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 20509689,
+    "id_str": "20509689",
+    "name": "Partido Popular",
+    "screen_name": "PPopular",
+    "location": "Madrid, Espa\u00f1a",
+    "description": "Twitter del principal partido pol\u00edtico de Espa\u00f1a. Nuestro reto: 20 millones de personas trabajando en 2020. Participa en esta apasionante tarea con nosotros.",
+    "url": "https://t.co/1QnSnijY35",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/1QnSnijY35",
+        "expanded_url": "http://www.pp.es/",
+        "display_url": "pp.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 677891,
+    "friends_count": 4278,
+    "listed_count": 4497,
+    "created_at": "Tue Feb 10 12:25:47 +0000 2009",
+    "favourites_count": 28172,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": true,
+    "verified": true,
+    "statuses_count": 65762,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "ECF5FC",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/589785418/fvb6kaf37jadn7i6uer7.jpeg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/589785418/fvb6kaf37jadn7i6uer7.jpeg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/935062250599206912/wx-KVYwc_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/935062250599206912/wx-KVYwc_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/20509689/1511772891",
+    "profile_link_color": "40B6E6",
+    "profile_sidebar_border_color": "1990CC",
+    "profile_sidebar_fill_color": "FFFFFF",
+    "profile_text_color": "F3912B",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 254,
+   "favorite_count": 278,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Mon Nov 27 20:03:24 +0000 2017",
+   "id": 935237644367355904,
+   "id_str": "935237644367355904",
+   "text": "Un dirigente de las juventudes de Puigdemont le desea a la Guardia Civil \u201cuna muerte lenta y dolorosa\u201d\u2026 https://t.co/ThHgsKKXvY",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/ThHgsKKXvY",
+      "expanded_url": "https://twitter.com/i/web/status/935237644367355904",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       104,
+       127
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"https://www.echobox.com\" rel=\"nofollow\">Echobox Social</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 3439292716,
+    "id_str": "3439292716",
+    "name": "OKDIARIO",
+    "screen_name": "okdiario",
+    "location": "",
+    "description": "El sitio de los inconformistas. Dirigido por @eduardoinda. S\u00edguenos en Facebook: https://t.co/ZDYu3rSJtP.",
+    "url": "https://t.co/zqjJoDJ9U7",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/zqjJoDJ9U7",
+        "expanded_url": "http://okdiario.com/",
+        "display_url": "okdiario.com",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": [
+       {
+        "url": "https://t.co/ZDYu3rSJtP",
+        "expanded_url": "http://facebook.com/okdiario",
+        "display_url": "facebook.com/okdiario",
+        "indices": [
+         81,
+         104
+        ]
+       }
+      ]
+     }
+    },
+    "protected": false,
+    "followers_count": 69350,
+    "friends_count": 318,
+    "listed_count": 1088,
+    "created_at": "Tue Aug 25 14:59:51 +0000 2015",
+    "favourites_count": 1022,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 61636,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/789113773697208320/3LvFvi8Q_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/789113773697208320/3LvFvi8Q_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3439292716/1449165493",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 192,
+   "favorite_count": 69,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Mon Nov 27 18:52:29 +0000 2017",
+   "id": 935219793745018881,
+   "id_str": "935219793745018881",
+   "text": ".@maitepagaza re\u00fane en Bruselas a presos del franquismo y estos le dicen a  Puigdemont que en Espa\u00f1a no existen los\u2026 https://t.co/FXbh2m7gYR",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "maitepagaza",
+      "name": "Maite Pagazaurtund\u00faa",
+      "id": 3351784787,
+      "id_str": "3351784787",
+      "indices": [
+       1,
+       13
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/FXbh2m7gYR",
+      "expanded_url": "https://twitter.com/i/web/status/935219793745018881",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 87659574,
+    "id_str": "87659574",
+    "name": "Cristina Segu\u00ed",
+    "screen_name": "CristinaSegui_",
+    "location": "Espa\u00f1a",
+    "description": "#LET vs correcci\u00f3n pol\u00edtica e ideolog\u00eda de g\u00e9nero. Capitalista. @ABC_es @OKDiario @Esradio @intereconomia @CopeValencia @EspejoPublico cristina_segui@outlook.es",
+    "url": "https://t.co/vbrEBJZxXP",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/vbrEBJZxXP",
+        "expanded_url": "http://www.cristinasegui.es",
+        "display_url": "cristinasegui.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 56358,
+    "friends_count": 998,
+    "listed_count": 611,
+    "created_at": "Thu Nov 05 10:40:16 +0000 2009",
+    "favourites_count": 27762,
+    "utc_offset": -10800,
+    "time_zone": "Greenland",
+    "geo_enabled": true,
+    "verified": true,
+    "statuses_count": 77800,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "0A0A0A",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/851940734/8e0641cd0d7f7438046d24ae5b0a65e4.jpeg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/851940734/8e0641cd0d7f7438046d24ae5b0a65e4.jpeg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/935052703478231040/cJ0fnaKI_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/935052703478231040/cJ0fnaKI_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/87659574/1510775710",
+    "profile_link_color": "3B94D9",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "regular"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": {
+    "id": "071a52d3a927a1b8",
+    "url": "https://api.twitter.com/1.1/geo/id/071a52d3a927a1b8.json",
+    "place_type": "city",
+    "name": "Valencia",
+    "full_name": "Valencia, Spain",
+    "country_code": "ES",
+    "country": "Spain",
+    "contained_within": [],
+    "bounding_box": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -0.4325447,
+        39.2783813
+       ],
+       [
+        -0.2725131,
+        39.2783813
+       ],
+       [
+        -0.2725131,
+        39.5665875
+       ],
+       [
+        -0.4325447,
+        39.5665875
+       ]
+      ]
+     ]
+    },
+    "attributes": {}
+   },
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 307,
+   "favorite_count": 345,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Mon Nov 27 20:07:51 +0000 2017",
+   "id": 935238763080568833,
+   "id_str": "935238763080568833",
+   "text": "#endirecto | Rajoy, sobre Puigdemont: \"En pol\u00edtica se puede hacer de todo, menos el rid\u00edculo\" https://t.co/ckrNUTjXt1",
+   "truncated": false,
+   "entities": {
+    "hashtags": [
+     {
+      "text": "endirecto",
+      "indices": [
+       0,
+       10
+      ]
+     }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [],
+    "media": [
+     {
+      "id": 935238735758753794,
+      "id_str": "935238735758753794",
+      "indices": [
+       94,
+       117
+      ],
+      "media_url": "http://pbs.twimg.com/media/DPqirNEWAAI-doH.jpg",
+      "media_url_https": "https://pbs.twimg.com/media/DPqirNEWAAI-doH.jpg",
+      "url": "https://t.co/ckrNUTjXt1",
+      "display_url": "pic.twitter.com/ckrNUTjXt1",
+      "expanded_url": "https://twitter.com/europapress/status/935238763080568833/photo/1",
+      "type": "photo",
+      "sizes": {
+       "small": {
+        "w": 637,
+        "h": 460,
+        "resize": "fit"
+       },
+       "thumb": {
+        "w": 150,
+        "h": 150,
+        "resize": "crop"
+       },
+       "large": {
+        "w": 637,
+        "h": 460,
+        "resize": "fit"
+       },
+       "medium": {
+        "w": 637,
+        "h": 460,
+        "resize": "fit"
+       }
+      }
+     }
+    ]
+   },
+   "extended_entities": {
+    "media": [
+     {
+      "id": 935238735758753794,
+      "id_str": "935238735758753794",
+      "indices": [
+       94,
+       117
+      ],
+      "media_url": "http://pbs.twimg.com/media/DPqirNEWAAI-doH.jpg",
+      "media_url_https": "https://pbs.twimg.com/media/DPqirNEWAAI-doH.jpg",
+      "url": "https://t.co/ckrNUTjXt1",
+      "display_url": "pic.twitter.com/ckrNUTjXt1",
+      "expanded_url": "https://twitter.com/europapress/status/935238763080568833/photo/1",
+      "type": "photo",
+      "sizes": {
+       "small": {
+        "w": 637,
+        "h": 460,
+        "resize": "fit"
+       },
+       "thumb": {
+        "w": 150,
+        "h": 150,
+        "resize": "crop"
+       },
+       "large": {
+        "w": 637,
+        "h": 460,
+        "resize": "fit"
+       },
+       "medium": {
+        "w": 637,
+        "h": 460,
+        "resize": "fit"
+       }
+      }
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 121385551,
+    "id_str": "121385551",
+    "name": "Europa Press",
+    "screen_name": "europapress",
+    "location": "",
+    "description": "La agencia de noticias privada l\u00edder en Espa\u00f1a | S\u00edguenos tambi\u00e9n en Facebook: http://t.co/IoWnFvUc2e e Instagram: https://t.co/KFJg84ac8N",
+    "url": "http://t.co/c2SmdP8GEw",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "http://t.co/c2SmdP8GEw",
+        "expanded_url": "http://www.europapress.es",
+        "display_url": "europapress.es",
+        "indices": [
+         0,
+         22
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": [
+       {
+        "url": "http://t.co/IoWnFvUc2e",
+        "expanded_url": "http://www.facebook.com/europapress.es",
+        "display_url": "facebook.com/europapress.es",
+        "indices": [
+         79,
+         101
+        ]
+       },
+       {
+        "url": "https://t.co/KFJg84ac8N",
+        "expanded_url": "https://instagram.com/europa_press/",
+        "display_url": "instagram.com/europa_press/",
+        "indices": [
+         115,
+         138
+        ]
+       }
+      ]
+     }
+    },
+    "protected": false,
+    "followers_count": 1017572,
+    "friends_count": 1036,
+    "listed_count": 13201,
+    "created_at": "Tue Mar 09 10:05:13 +0000 2010",
+    "favourites_count": 3774,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 260105,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "D7DADF",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/445509428/fondotwittwerep.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/445509428/fondotwittwerep.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/876740155473788928/4V7ewUTC_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/876740155473788928/4V7ewUTC_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/121385551/1484815550",
+    "profile_link_color": "003970",
+    "profile_sidebar_border_color": "2F5088",
+    "profile_sidebar_fill_color": "F0F0F0",
+    "profile_text_color": "000000",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 206,
+   "favorite_count": 365,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Tue Nov 28 10:19:47 +0000 2017",
+   "id": 935453157148319745,
+   "id_str": "935453157148319745",
+   "text": "\u201cMi compromiso con S\u00e1nchez no es para reformar la #Constituci\u00f3n, algo que no estaba entre mis prioridades\u201d. \n\u00bf\u2026 https://t.co/wI83yOJT0S",
+   "truncated": true,
+   "entities": {
+    "hashtags": [
+     {
+      "text": "Constituci\u00f3n",
+      "indices": [
+       50,
+       63
+      ]
+     }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/wI83yOJT0S",
+      "expanded_url": "https://twitter.com/i/web/status/935453157148319745",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       112,
+       135
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 107153756,
+    "id_str": "107153756",
+    "name": "Ana Pardo de Vera P.",
+    "screen_name": "pardodevera",
+    "location": "Madrid, Comunidad de Madrid",
+    "description": "Periodista y directora de P\u00fablico. Gallega, mucho. Librepensadora, toda.",
+    "url": "https://t.co/8nI5zYw3L5",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/8nI5zYw3L5",
+        "expanded_url": "https://t.me/publico_es",
+        "display_url": "t.me/publico_es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 78250,
+    "friends_count": 2523,
+    "listed_count": 1066,
+    "created_at": "Thu Jan 21 18:07:11 +0000 2010",
+    "favourites_count": 42848,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 51589,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "642D8B",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme10/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme10/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/923142881002520578/CUBkCnzo_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/923142881002520578/CUBkCnzo_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/107153756/1503147215",
+    "profile_link_color": "FF0000",
+    "profile_sidebar_border_color": "65B0DA",
+    "profile_sidebar_fill_color": "7AC3EE",
+    "profile_text_color": "3D1957",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 376,
+   "favorite_count": 260,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  }
+ ],
+ "search_metadata": {
+  "completed_in": 0.048,
+  "max_id": 0,
+  "max_id_str": "0",
+  "next_results": "?max_id=935169911323799551&q=puigdemont&lang=es&count=10&include_entities=1&result_type=popular",
+  "query": "puigdemont",
+  "count": 10,
+  "since_id": 0,
+  "since_id_str": "0"
+ }
+}

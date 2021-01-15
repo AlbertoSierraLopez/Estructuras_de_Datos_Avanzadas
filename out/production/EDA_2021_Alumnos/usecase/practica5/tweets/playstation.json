@@ -1,0 +1,1692 @@
+{
+ "statuses": [
+  {
+   "created_at": "Wed Nov 29 14:16:51 +0000 2017",
+   "id": 935875204181561344,
+   "id_str": "935875204181561344",
+   "text": "#SaberEsPoderGAME 1\ufe0f\u20e3\u00a1Muy f\u00e1cil! \ud83e\udd13\n\nHaz RT + Responde correctamente con #SaberEsPoderGAME\n\nSorteamos una CAMISETA \ud83d\udc55\u2026 https://t.co/3LEKLfDhd5",
+   "truncated": true,
+   "entities": {
+    "hashtags": [
+     {
+      "text": "SaberEsPoderGAME",
+      "indices": [
+       0,
+       17
+      ]
+     },
+     {
+      "text": "SaberEsPoderGAME",
+      "indices": [
+       72,
+       89
+      ]
+     }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/3LEKLfDhd5",
+      "expanded_url": "https://twitter.com/i/web/status/935875204181561344",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": 935874686717714437,
+   "in_reply_to_status_id_str": "935874686717714437",
+   "in_reply_to_user_id": 15243058,
+   "in_reply_to_user_id_str": "15243058",
+   "in_reply_to_screen_name": "VideojuegosGAME",
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 197,
+   "favorite_count": 41,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Tue Nov 28 12:24:32 +0000 2017",
+   "id": 935484554554593280,
+   "id_str": "935484554554593280",
+   "text": "@PlayStationES \u00bfQu\u00e9 eleg\u00eds?\n\n\ud83d\udd2bActu\u00e1is de manera AUTORITARIA o...\nDe manera TRANQULIZADORA \ud83d\ude4c\n\nRT a este tuit \ud83d\udc48+ Vota\u2026 https://t.co/0XZsug0ZxT",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "PlayStationES",
+      "name": "PlayStation Espa\u00f1a",
+      "id": 122104594,
+      "id_str": "122104594",
+      "indices": [
+       0,
+       14
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/0XZsug0ZxT",
+      "expanded_url": "https://twitter.com/i/web/status/935484554554593280",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": 935483895474212864,
+   "in_reply_to_status_id_str": "935483895474212864",
+   "in_reply_to_user_id": 15243058,
+   "in_reply_to_user_id_str": "15243058",
+   "in_reply_to_screen_name": "VideojuegosGAME",
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 67,
+   "favorite_count": 10,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Tue Nov 28 11:53:17 +0000 2017",
+   "id": 935476689513189382,
+   "id_str": "935476689513189382",
+   "text": "@PlayStationES \u00bfQu\u00e9 eleg\u00eds?\n\ud83d\udc65Permanec\u00e9is JUNTOS o...\n\ud83d\udc64Decid\u00eds ir por SEPARADO\ud83d\udc64\n\nRT a este tuit \ud83d\udc48+ Vota en la encues\u2026 https://t.co/NQMSIBFEYO",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "PlayStationES",
+      "name": "PlayStation Espa\u00f1a",
+      "id": 122104594,
+      "id_str": "122104594",
+      "indices": [
+       0,
+       14
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/NQMSIBFEYO",
+      "expanded_url": "https://twitter.com/i/web/status/935476689513189382",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": 935474715161976832,
+   "in_reply_to_status_id_str": "935474715161976832",
+   "in_reply_to_user_id": 15243058,
+   "in_reply_to_user_id_str": "15243058",
+   "in_reply_to_screen_name": "VideojuegosGAME",
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 66,
+   "favorite_count": 16,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Wed Nov 29 15:00:49 +0000 2017",
+   "id": 935886270257037313,
+   "id_str": "935886270257037313",
+   "text": "@PlayStationES \u00a1Oh! Nos han dado un item para poder usar CONTRA otro jugador :D\n\nRT + Citad al amigo al que se lo l\u2026 https://t.co/UYGTCsOurV",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "PlayStationES",
+      "name": "PlayStation Espa\u00f1a",
+      "id": 122104594,
+      "id_str": "122104594",
+      "indices": [
+       0,
+       14
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/UYGTCsOurV",
+      "expanded_url": "https://twitter.com/i/web/status/935886270257037313",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": 935883979466661889,
+   "in_reply_to_status_id_str": "935883979466661889",
+   "in_reply_to_user_id": 15243058,
+   "in_reply_to_user_id_str": "15243058",
+   "in_reply_to_screen_name": "VideojuegosGAME",
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 41,
+   "favorite_count": 23,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Tue Nov 28 12:45:33 +0000 2017",
+   "id": 935489840044478467,
+   "id_str": "935489840044478467",
+   "text": "@PlayStationES \u00bfQu\u00e9 eleg\u00eds? \n\n\ud83d\udd2bActu\u00e1is de manera AUTORITARIA o...\nDe manera AMENAZADORA \ud83d\udd95\ud83d\udd2b\n\u00a1No hay marcha atr\u00e1s! Es\u2026 https://t.co/FnqZqwQ1qu",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "PlayStationES",
+      "name": "PlayStation Espa\u00f1a",
+      "id": 122104594,
+      "id_str": "122104594",
+      "indices": [
+       0,
+       14
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/FnqZqwQ1qu",
+      "expanded_url": "https://twitter.com/i/web/status/935489840044478467",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": 935489433046016002,
+   "in_reply_to_status_id_str": "935489433046016002",
+   "in_reply_to_user_id": 15243058,
+   "in_reply_to_user_id_str": "15243058",
+   "in_reply_to_screen_name": "VideojuegosGAME",
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 48,
+   "favorite_count": 14,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Wed Nov 29 15:35:00 +0000 2017",
+   "id": 935894872925589504,
+   "id_str": "935894872925589504",
+   "text": "@PlayStationES #SaberEsPoderGAME 5\ufe0f\u20e3\u00a1\u00daltima pregunta!\n\nHaz RT + Responde correctamente con #SaberEsPoderGAME\n\nSorte\u2026 https://t.co/AFnrU6Whsq",
+   "truncated": true,
+   "entities": {
+    "hashtags": [
+     {
+      "text": "SaberEsPoderGAME",
+      "indices": [
+       15,
+       32
+      ]
+     },
+     {
+      "text": "SaberEsPoderGAME",
+      "indices": [
+       91,
+       108
+      ]
+     }
+    ],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "PlayStationES",
+      "name": "PlayStation Espa\u00f1a",
+      "id": 122104594,
+      "id_str": "122104594",
+      "indices": [
+       0,
+       14
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/AFnrU6Whsq",
+      "expanded_url": "https://twitter.com/i/web/status/935894872925589504",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": 935891776635883521,
+   "in_reply_to_status_id_str": "935891776635883521",
+   "in_reply_to_user_id": 15243058,
+   "in_reply_to_user_id_str": "15243058",
+   "in_reply_to_screen_name": "VideojuegosGAME",
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 45,
+   "favorite_count": 22,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Wed Nov 29 15:22:42 +0000 2017",
+   "id": 935891776635883521,
+   "id_str": "935891776635883521",
+   "text": "@PlayStationES #SaberEsPoderGAME 4\ufe0f\u20e3\n\nHaz RT + Responde correctamente con #SaberEsPoderGAME\n\nSorteamos una CAMISETA\u2026 https://t.co/dIRV8j2EK1",
+   "truncated": true,
+   "entities": {
+    "hashtags": [
+     {
+      "text": "SaberEsPoderGAME",
+      "indices": [
+       15,
+       32
+      ]
+     },
+     {
+      "text": "SaberEsPoderGAME",
+      "indices": [
+       74,
+       91
+      ]
+     }
+    ],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "PlayStationES",
+      "name": "PlayStation Espa\u00f1a",
+      "id": 122104594,
+      "id_str": "122104594",
+      "indices": [
+       0,
+       14
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/dIRV8j2EK1",
+      "expanded_url": "https://twitter.com/i/web/status/935891776635883521",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": 935886270257037313,
+   "in_reply_to_status_id_str": "935886270257037313",
+   "in_reply_to_user_id": 15243058,
+   "in_reply_to_user_id_str": "15243058",
+   "in_reply_to_screen_name": "VideojuegosGAME",
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 63,
+   "favorite_count": 27,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Tue Nov 28 11:09:47 +0000 2017",
+   "id": 935465740752343040,
+   "id_str": "935465740752343040",
+   "text": "En unos minutos arrancamos la AVENTURA COLABORATIVA #IntencionesOcultas en Twitter \u00a1leed bien c\u00f3mo participar!\nPorq\u2026 https://t.co/56zQZEfPlS",
+   "truncated": true,
+   "entities": {
+    "hashtags": [
+     {
+      "text": "IntencionesOcultas",
+      "indices": [
+       52,
+       71
+      ]
+     }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/56zQZEfPlS",
+      "expanded_url": "https://twitter.com/i/web/status/935465740752343040",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": 935460184583036928,
+   "in_reply_to_status_id_str": "935460184583036928",
+   "in_reply_to_user_id": 15243058,
+   "in_reply_to_user_id_str": "15243058",
+   "in_reply_to_screen_name": "VideojuegosGAME",
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 28,
+   "favorite_count": 48,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Tue Nov 28 11:54:11 +0000 2017",
+   "id": 935476916257218560,
+   "id_str": "935476916257218560",
+   "text": "@PlayStationES \u00bfC\u00f3mo prefieres actuar? \n\nParticipa en el sorteo de 2 llaveros oficiales de @PlayStationES haciendo\u2026 https://t.co/pQ2DqwD6rV",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "PlayStationES",
+      "name": "PlayStation Espa\u00f1a",
+      "id": 122104594,
+      "id_str": "122104594",
+      "indices": [
+       0,
+       14
+      ]
+     },
+     {
+      "screen_name": "PlayStationES",
+      "name": "PlayStation Espa\u00f1a",
+      "id": 122104594,
+      "id_str": "122104594",
+      "indices": [
+       91,
+       105
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/pQ2DqwD6rV",
+      "expanded_url": "https://twitter.com/i/web/status/935476916257218560",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       116,
+       139
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": 935476689513189382,
+   "in_reply_to_status_id_str": "935476689513189382",
+   "in_reply_to_user_id": 15243058,
+   "in_reply_to_user_id_str": "15243058",
+   "in_reply_to_screen_name": "VideojuegosGAME",
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 20,
+   "favorite_count": 15,
+   "favorited": false,
+   "retweeted": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Mon Nov 27 16:49:09 +0000 2017",
+   "id": 935188759217307649,
+   "id_str": "935188759217307649",
+   "text": "Llevo a\u00f1os queriendo cambiar mi ID de Playstation network sin tener que hacerme una cuenta nueva y perder mis compr\u2026 https://t.co/oWtHvO8ICC",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/oWtHvO8ICC",
+      "expanded_url": "https://twitter.com/i/web/status/935188759217307649",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 177565965,
+    "id_str": "177565965",
+    "name": "Porta",
+    "screen_name": "RealPorta",
+    "location": "BARCELONA - KAMEHOUSE",
+    "description": "Hacedor profesional de rap pasado de moda | Batman en los ratos libres. \u279chttps://t.co/AuNWtDpoM9\nCONTRATACI\u00d3N:  \u279cRLM@RLM.ES",
+    "url": "https://t.co/69HhLHNsk5",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/69HhLHNsk5",
+        "expanded_url": "https://WWW.INSTAGRAM.COM/REALPORTA",
+        "display_url": "INSTAGRAM.COM/REALPORTA",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": [
+       {
+        "url": "https://t.co/AuNWtDpoM9",
+        "expanded_url": "http://YOUTUBE.COM/PORTA",
+        "display_url": "YOUTUBE.COM/PORTA",
+        "indices": [
+         73,
+         96
+        ]
+       }
+      ]
+     }
+    },
+    "protected": false,
+    "followers_count": 922831,
+    "friends_count": 175,
+    "listed_count": 2360,
+    "created_at": "Thu Aug 12 13:39:32 +0000 2010",
+    "favourites_count": 1088,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": true,
+    "verified": true,
+    "statuses_count": 5258,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "E5D7CA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/312425734/Twitter.png",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/312425734/Twitter.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/922114266446139392/eUKRkOod_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/922114266446139392/eUKRkOod_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/177565965/1508408466",
+    "profile_link_color": "FF691F",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "8694CC",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 44,
+   "favorite_count": 389,
+   "favorited": false,
+   "retweeted": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Wed Nov 29 15:11:13 +0000 2017",
+   "id": 935888887674699778,
+   "id_str": "935888887674699778",
+   "text": "Haz RT al tuit de abajo y cita a un amigo con #SaberEsPoderGAME \u00a1\u00faltimos minutos para ganar una CAMISETA oficial de\u2026 https://t.co/MjpLJGlFoh",
+   "truncated": true,
+   "entities": {
+    "hashtags": [
+     {
+      "text": "SaberEsPoderGAME",
+      "indices": [
+       46,
+       63
+      ]
+     }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/MjpLJGlFoh",
+      "expanded_url": "https://twitter.com/i/web/status/935888887674699778",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": true,
+   "quoted_status_id": 935886270257037313,
+   "quoted_status_id_str": "935886270257037313",
+   "quoted_status": {
+    "created_at": "Wed Nov 29 15:00:49 +0000 2017",
+    "id": 935886270257037313,
+    "id_str": "935886270257037313",
+    "text": "@PlayStationES \u00a1Oh! Nos han dado un item para poder usar CONTRA otro jugador :D\n\nRT + Citad al amigo al que se lo l\u2026 https://t.co/UYGTCsOurV",
+    "truncated": true,
+    "entities": {
+     "hashtags": [],
+     "symbols": [],
+     "user_mentions": [
+      {
+       "screen_name": "PlayStationES",
+       "name": "PlayStation Espa\u00f1a",
+       "id": 122104594,
+       "id_str": "122104594",
+       "indices": [
+        0,
+        14
+       ]
+      }
+     ],
+     "urls": [
+      {
+       "url": "https://t.co/UYGTCsOurV",
+       "expanded_url": "https://twitter.com/i/web/status/935886270257037313",
+       "display_url": "twitter.com/i/web/status/9\u2026",
+       "indices": [
+        117,
+        140
+       ]
+      }
+     ]
+    },
+    "metadata": {
+     "result_type": "popular",
+     "iso_language_code": "es"
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 935883979466661889,
+    "in_reply_to_status_id_str": "935883979466661889",
+    "in_reply_to_user_id": 15243058,
+    "in_reply_to_user_id_str": "15243058",
+    "in_reply_to_screen_name": "VideojuegosGAME",
+    "user": {
+     "id": 15243058,
+     "id_str": "15243058",
+     "name": "GAME (Espa\u00f1a)",
+     "screen_name": "VideojuegosGAME",
+     "location": "Espa\u00f1a",
+     "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+     "url": "https://t.co/OtN6B4CVHy",
+     "entities": {
+      "url": {
+       "urls": [
+        {
+         "url": "https://t.co/OtN6B4CVHy",
+         "expanded_url": "http://www.game.es",
+         "display_url": "game.es",
+         "indices": [
+          0,
+          23
+         ]
+        }
+       ]
+      },
+      "description": {
+       "urls": []
+      }
+     },
+     "protected": false,
+     "followers_count": 354034,
+     "friends_count": 1078,
+     "listed_count": 1310,
+     "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+     "favourites_count": 34447,
+     "utc_offset": 3600,
+     "time_zone": "Madrid",
+     "geo_enabled": false,
+     "verified": true,
+     "statuses_count": 193056,
+     "lang": "es",
+     "contributors_enabled": false,
+     "is_translator": false,
+     "is_translation_enabled": true,
+     "profile_background_color": "F5F8FA",
+     "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+     "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+     "profile_background_tile": false,
+     "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+     "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+     "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+     "profile_link_color": "009999",
+     "profile_sidebar_border_color": "FFFFFF",
+     "profile_sidebar_fill_color": "EFEFEF",
+     "profile_text_color": "333333",
+     "profile_use_background_image": true,
+     "has_extended_profile": false,
+     "default_profile": false,
+     "default_profile_image": false,
+     "following": false,
+     "follow_request_sent": false,
+     "notifications": false,
+     "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 41,
+    "favorite_count": 23,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "es"
+   },
+   "retweet_count": 4,
+   "favorite_count": 5,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Wed Nov 29 14:07:33 +0000 2017",
+   "id": 935872865332813824,
+   "id_str": "935872865332813824",
+   "text": "@PlayStationES \u00a1BUENAS TARDES\ud83d\uddef! (Escuchadlo con voz de @DaniMateoAgain, quien dobla al presentador en el juego)\n\nEn\u2026 https://t.co/LDHi3MC5Lq",
+   "truncated": true,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "PlayStationES",
+      "name": "PlayStation Espa\u00f1a",
+      "id": 122104594,
+      "id_str": "122104594",
+      "indices": [
+       0,
+       14
+      ]
+     },
+     {
+      "screen_name": "DaniMateoAgain",
+      "name": "Dani Mateo",
+      "id": 241496045,
+      "id_str": "241496045",
+      "indices": [
+       55,
+       70
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/LDHi3MC5Lq",
+      "expanded_url": "https://twitter.com/i/web/status/935872865332813824",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": 935852857831632896,
+   "in_reply_to_status_id_str": "935852857831632896",
+   "in_reply_to_user_id": 15243058,
+   "in_reply_to_user_id_str": "15243058",
+   "in_reply_to_screen_name": "VideojuegosGAME",
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 4,
+   "favorite_count": 21,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Wed Nov 29 14:30:51 +0000 2017",
+   "id": 935878731108945926,
+   "id_str": "935878731108945926",
+   "text": "@PlayStationES \ud83d\udc46\u00a1\u00daltimos minutos para responder a la primera pregunta de #SaberEsPoderGAME!\ud83d\udc46\nUna CAMISETA oficial d\u2026 https://t.co/fAF6GyMa4S",
+   "truncated": true,
+   "entities": {
+    "hashtags": [
+     {
+      "text": "SaberEsPoderGAME",
+      "indices": [
+       73,
+       90
+      ]
+     }
+    ],
+    "symbols": [],
+    "user_mentions": [
+     {
+      "screen_name": "PlayStationES",
+      "name": "PlayStation Espa\u00f1a",
+      "id": 122104594,
+      "id_str": "122104594",
+      "indices": [
+       0,
+       14
+      ]
+     }
+    ],
+    "urls": [
+     {
+      "url": "https://t.co/fAF6GyMa4S",
+      "expanded_url": "https://twitter.com/i/web/status/935878731108945926",
+      "display_url": "twitter.com/i/web/status/9\u2026",
+      "indices": [
+       117,
+       140
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": 935875204181561344,
+   "in_reply_to_status_id_str": "935875204181561344",
+   "in_reply_to_user_id": 15243058,
+   "in_reply_to_user_id_str": "15243058",
+   "in_reply_to_screen_name": "VideojuegosGAME",
+   "user": {
+    "id": 15243058,
+    "id_str": "15243058",
+    "name": "GAME (Espa\u00f1a)",
+    "screen_name": "VideojuegosGAME",
+    "location": "Espa\u00f1a",
+    "description": "Especialistas en Videojuegos. B\u00fascanos en el resto de redes sociales por @videojuegosGAME, y saluda a nuestro nuevo miembro, @GAMEeSports_ES",
+    "url": "https://t.co/OtN6B4CVHy",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "https://t.co/OtN6B4CVHy",
+        "expanded_url": "http://www.game.es",
+        "display_url": "game.es",
+        "indices": [
+         0,
+         23
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 354034,
+    "friends_count": 1078,
+    "listed_count": 1310,
+    "created_at": "Thu Jun 26 11:42:27 +0000 2008",
+    "favourites_count": 34447,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 193056,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": true,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692727119080726528/qngPhr6u.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927547356945567747/CromSId3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15243058/1511856364",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 7,
+   "favorite_count": 20,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  }
+ ],
+ "search_metadata": {
+  "completed_in": 0.041,
+  "max_id": 0,
+  "max_id_str": "0",
+  "query": "%40playstationes",
+  "count": 50,
+  "since_id": 0,
+  "since_id_str": "0"
+ }
+}

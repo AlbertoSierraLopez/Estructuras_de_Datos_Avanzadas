@@ -1,0 +1,406 @@
+{
+ "statuses": [
+  {
+   "created_at": "Sun Nov 26 16:16:08 +0000 2017",
+   "id": 934818061227642880,
+   "id_str": "934818061227642880",
+   "text": "Esto es lo que pasa cuando unes Cuphead y Dark Souls. https://t.co/iv9R2bnwLp",
+   "truncated": false,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/iv9R2bnwLp",
+      "expanded_url": "http://ow.ly/msjB30gORwx",
+      "display_url": "ow.ly/msjB30gORwx",
+      "indices": [
+       54,
+       77
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 32602643,
+    "id_str": "32602643",
+    "name": "LevelUp.com",
+    "screen_name": "LevelUPcom",
+    "location": "Ciudad de M\u00e9xico",
+    "description": "Todo sobre videojuegos: noticias, rese\u00f1as, videos y m\u00e1s.",
+    "url": "http://t.co/2l0Vl3aVTv",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "http://t.co/2l0Vl3aVTv",
+        "expanded_url": "http://www.levelup.com",
+        "display_url": "levelup.com",
+        "indices": [
+         0,
+         22
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 134341,
+    "friends_count": 5685,
+    "listed_count": 897,
+    "created_at": "Fri Apr 17 21:36:55 +0000 2009",
+    "favourites_count": 8279,
+    "utc_offset": -21600,
+    "time_zone": "Central Time (US & Canada)",
+    "geo_enabled": true,
+    "verified": true,
+    "statuses_count": 63488,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/670942352/54f4f3c71a4848e591a3fc53bf8dc129.jpeg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/670942352/54f4f3c71a4848e591a3fc53bf8dc129.jpeg",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/502457677507612672/CCHZdmGD_normal.png",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/502457677507612672/CCHZdmGD_normal.png",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/32602643/1498663023",
+    "profile_link_color": "ED2828",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "828282",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 60,
+   "favorite_count": 205,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Sat Nov 25 12:33:38 +0000 2017",
+   "id": 934399679525253121,
+   "id_str": "934399679525253121",
+   "text": "Dark Souls y Cuphead han utilizado los pendientes pothala para FUSIONARSE. \u00a1Cupsouls!\nhttps://t.co/drhAAqbQcu",
+   "truncated": false,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/drhAAqbQcu",
+      "expanded_url": "https://www.guiltybit.com/cupsouls-dark-souls-cuphead/",
+      "display_url": "guiltybit.com/cupsouls-dark-\u2026",
+      "indices": [
+       86,
+       109
+      ]
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 421697970,
+    "id_str": "421697970",
+    "name": "GuiltyBit",
+    "screen_name": "GuiltyBit",
+    "location": "Espa\u00f1a",
+    "description": "#Videojuegos, risas y mucha locura. Somos muy culpables de todos esos cargos...y seguramente t\u00fa tambi\u00e9n, \u00a1\u00danete!",
+    "url": "http://t.co/h5QdfMSqai",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "http://t.co/h5QdfMSqai",
+        "expanded_url": "http://www.guiltybit.com",
+        "display_url": "guiltybit.com",
+        "indices": [
+         0,
+         22
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 32546,
+    "friends_count": 5388,
+    "listed_count": 439,
+    "created_at": "Sat Nov 26 08:10:28 +0000 2011",
+    "favourites_count": 14437,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 106669,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/394119645/bg.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/394119645/bg.jpg",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/927513414980853761/s_HHsBv8_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/927513414980853761/s_HHsBv8_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/421697970/1509971349",
+    "profile_link_color": "F09800",
+    "profile_sidebar_border_color": "B5C1C7",
+    "profile_sidebar_fill_color": "F7FDFF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "regular"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 25,
+   "favorite_count": 51,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  },
+  {
+   "created_at": "Thu Nov 23 11:45:00 +0000 2017",
+   "id": 933662665406160896,
+   "id_str": "933662665406160896",
+   "text": "Bandai Namco registra un posible nuevo 'Dark Souls' en Europa https://t.co/n4db51noxI https://t.co/MpnjlHtR0t",
+   "truncated": false,
+   "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+     {
+      "url": "https://t.co/n4db51noxI",
+      "expanded_url": "http://bit.ly/2hXUaT5",
+      "display_url": "bit.ly/2hXUaT5",
+      "indices": [
+       62,
+       85
+      ]
+     }
+    ],
+    "media": [
+     {
+      "id": 933661382255501312,
+      "id_str": "933661382255501312",
+      "indices": [
+       86,
+       109
+      ],
+      "media_url": "http://pbs.twimg.com/media/DPUIFJXW4AAQZI_.jpg",
+      "media_url_https": "https://pbs.twimg.com/media/DPUIFJXW4AAQZI_.jpg",
+      "url": "https://t.co/MpnjlHtR0t",
+      "display_url": "pic.twitter.com/MpnjlHtR0t",
+      "expanded_url": "https://twitter.com/SomosXbox/status/933662665406160896/photo/1",
+      "type": "photo",
+      "sizes": {
+       "medium": {
+        "w": 620,
+        "h": 348,
+        "resize": "fit"
+       },
+       "thumb": {
+        "w": 150,
+        "h": 150,
+        "resize": "crop"
+       },
+       "small": {
+        "w": 620,
+        "h": 348,
+        "resize": "fit"
+       },
+       "large": {
+        "w": 620,
+        "h": 348,
+        "resize": "fit"
+       }
+      }
+     }
+    ]
+   },
+   "extended_entities": {
+    "media": [
+     {
+      "id": 933661382255501312,
+      "id_str": "933661382255501312",
+      "indices": [
+       86,
+       109
+      ],
+      "media_url": "http://pbs.twimg.com/media/DPUIFJXW4AAQZI_.jpg",
+      "media_url_https": "https://pbs.twimg.com/media/DPUIFJXW4AAQZI_.jpg",
+      "url": "https://t.co/MpnjlHtR0t",
+      "display_url": "pic.twitter.com/MpnjlHtR0t",
+      "expanded_url": "https://twitter.com/SomosXbox/status/933662665406160896/photo/1",
+      "type": "photo",
+      "sizes": {
+       "medium": {
+        "w": 620,
+        "h": 348,
+        "resize": "fit"
+       },
+       "thumb": {
+        "w": 150,
+        "h": 150,
+        "resize": "crop"
+       },
+       "small": {
+        "w": 620,
+        "h": 348,
+        "resize": "fit"
+       },
+       "large": {
+        "w": 620,
+        "h": 348,
+        "resize": "fit"
+       }
+      }
+     }
+    ]
+   },
+   "metadata": {
+    "result_type": "popular",
+    "iso_language_code": "es"
+   },
+   "source": "<a href=\"https://ads-api.twitter.com\" rel=\"nofollow\">Twitter Ads Composer</a>",
+   "in_reply_to_status_id": null,
+   "in_reply_to_status_id_str": null,
+   "in_reply_to_user_id": null,
+   "in_reply_to_user_id_str": null,
+   "in_reply_to_screen_name": null,
+   "user": {
+    "id": 1172791447,
+    "id_str": "1172791447",
+    "name": "SomosXbox",
+    "screen_name": "SomosXbox",
+    "location": "",
+    "description": "Somos la revista online l\u00edder de Xbox en espa\u00f1ol. Noticias, an\u00e1lisis, art\u00edculos y la mejor comunidad de Xbox te espera en nuestros foros. \u00a1S\u00edguenos!",
+    "url": "http://t.co/tW9ba7W8OP",
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "http://t.co/tW9ba7W8OP",
+        "expanded_url": "http://www.somosxbox.com",
+        "display_url": "somosxbox.com",
+        "indices": [
+         0,
+         22
+        ]
+       }
+      ]
+     },
+     "description": {
+      "urls": []
+     }
+    },
+    "protected": false,
+    "followers_count": 30578,
+    "friends_count": 37,
+    "listed_count": 215,
+    "created_at": "Tue Feb 12 18:48:48 +0000 2013",
+    "favourites_count": 4896,
+    "utc_offset": 3600,
+    "time_zone": "Madrid",
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 53448,
+    "lang": "es",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000014663154/cd7a25f984fd2dd51e5a48036b8ba8d7.jpeg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000014663154/cd7a25f984fd2dd51e5a48036b8ba8d7.jpeg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/794952427531304960/knkk19Mb_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/794952427531304960/knkk19Mb_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1172791447/1478366427",
+    "profile_link_color": "107C10",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "regular"
+   },
+   "geo": null,
+   "coordinates": null,
+   "place": null,
+   "contributors": null,
+   "is_quote_status": false,
+   "retweet_count": 23,
+   "favorite_count": 29,
+   "favorited": false,
+   "retweeted": false,
+   "possibly_sensitive": false,
+   "lang": "es"
+  }
+ ],
+ "search_metadata": {
+  "completed_in": 0.041,
+  "max_id": 0,
+  "max_id_str": "0",
+  "query": "dark+souls",
+  "count": 50,
+  "since_id": 0,
+  "since_id_str": "0"
+ }
+}

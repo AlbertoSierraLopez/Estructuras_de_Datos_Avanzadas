@@ -326,28 +326,27 @@ public class RBTree<E> implements BinarySearchTree<E> {
 	/**
 	 * Ejercicio 1: findRange
 	 */
-
 	public Iterable<Position<E>> findRange(E minValue, E maxValue) throws RuntimeException{
-		throws new RuntimeException("Not yet implemented");
+		throw new RuntimeException("Not yet implemented");
 	}
 
 	/**
 	 * Ejercicio 2: first, last, successors, predecessors
 	 */
 	public Position<E> first() throws RuntimeException {
-		throws new RuntimeException("Not yet implemented");
+		throw new RuntimeException("Not yet implemented");
 	}
 
 	public Position<E> last() throws RuntimeException {
-		throws new RuntimeException("Not yet implemented");
+		throw new RuntimeException("Not yet implemented");
 	}
 
 	public Iterable<Position<E>> successors(Position<E> pos){
-		throws new RuntimeException("Not yet implemented");
+		throw new RuntimeException("Not yet implemented");
 	}
 
 	public Iterable<Position<E>> predecessors(Position<E> pos){
-		throws new RuntimeException("Not yet implemented");
+		throw new RuntimeException("Not yet implemented");
 	}
 
 }

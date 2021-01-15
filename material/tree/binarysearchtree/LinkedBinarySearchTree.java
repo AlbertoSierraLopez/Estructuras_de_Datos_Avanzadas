@@ -261,7 +261,6 @@ public class LinkedBinarySearchTree<E> implements BinarySearchTree<E> {
 		return toReturn;
 	}
 
-
 	/** Returns an iterator of the elements stored at the nodes. */
 	public Iterator<Position<E>>  iterator() {
 		return new BSTIterator<E>(this);
@@ -271,31 +270,185 @@ public class LinkedBinarySearchTree<E> implements BinarySearchTree<E> {
 	 * Ejercicio 1: first, last, successors, predecessors
 	 */
 	public Position<E> first() throws RuntimeException {
-		throw new RuntimeException("Not implemented.");
+		if (binTree.isEmpty()) {
+			throw new RuntimeException("Tree is empty");
+		}
+		Position<E> cursor = binTree.root();
+		while (binTree.hasLeft(cursor)) {
+			cursor = binTree.left(cursor);
+		}
+		return binTree.parent(cursor);	// Los nodos hoja son despreciables (null)
 	}
 
 	public Position<E> last() throws RuntimeException {
-		throw new RuntimeException("Not implemented.");
+		if (binTree.isEmpty()) {
+			throw new RuntimeException("Tree is empty");
+		}
+		Position<E> cursor = binTree.root();
+		while (binTree.hasRight(cursor)) {
+			cursor = binTree.right(cursor);
+		}
+		return binTree.parent(cursor);	// Los nodos hoja son despreciables (null)
+	}
 
-	}
+    public Iterable<Position<E>> successors(Position<E> pos){
+        List<Position<E>> list = new ArrayList<>();
+
+        if (binTree.hasRight(pos)) {
+            successorsSubtree(binTree.right(pos), list);
+        }
+
+        Position<E> current = pos;
+        Position<E> prev = current;
+        while (!binTree.isRoot(current)) {
+            prev = current;
+            current = binTree.parent(current);
+            if (binTree.hasLeft(current) && binTree.left(current) == prev) {
+                list.add(current);
+                if (binTree.hasRight(current)) {
+                    successorsSubtree(binTree.right(current), list);
+                }
+            }
+        }
+
+        return list;
+    }
+
+    private void successorsSubtree(Position<E> pos, List<Position<E>> list) {
+	    if (!binTree.isLeaf(pos)) {
+            if (binTree.hasLeft(pos)) {
+                successorsSubtree(binTree.left(pos), list);
+            }
+            list.add(pos);
+            if (binTree.hasRight(pos)) {
+                successorsSubtree(binTree.right(pos), list);
+            }
+        }
+    }
+
+	/*
+	// Método alternativo (recorre el ABB desde la raíz hasta las hojas)
 	public Iterable<Position<E>> successors(Position<E> pos){
-		throw new RuntimeException("Not implemented.");
+		List<Position<E>> list = new ArrayList<>();
+		if (!binTree.isEmpty()) {
+			Position<E> root = binTree.root();
+			successorsSearch(root, pos.getElement(), list);
+		}
+		return list;
 	}
+
+	private void successorsSearch(Position<E> node, E element, List<Position<E>> list) {
+		if (!binTree.isLeaf(node) && comparator.compare(node.getElement(), element) > 0) {	// Hay que asegurarse de no comparar los nodos hoja porque valen null
+			if (binTree.hasLeft(node)) {
+				successorsSearch(binTree.left(node), element, list);
+			}
+			list.add(node);
+		}
+		if (binTree.hasRight(node)) {
+			successorsSearch(binTree.right(node), element, list);
+		}
+	}
+    */
+
+    public Iterable<Position<E>> predecessors(Position<E> pos){
+        List<Position<E>> list = new ArrayList<>();
+
+        if (binTree.hasLeft(pos)) {
+            predecessorsSubtree(binTree.left(pos), list);
+        }
+
+        Position<E> current = pos;
+        Position<E> prev = current;
+        while (!binTree.isRoot(current)) {
+            prev = current;
+            current = binTree.parent(current);
+            if (binTree.hasRight(current) && binTree.right(current) == prev) {
+                list.add(current);
+                if (binTree.hasLeft(current)) {
+                    predecessorsSubtree(binTree.left(current), list);
+                }
+            }
+        }
+
+        return list;
+    }
+
+    private void predecessorsSubtree(Position<E> pos, List<Position<E>> list) {
+        if (!binTree.isLeaf(pos)) {
+            if (binTree.hasRight(pos)) {
+                predecessorsSubtree(binTree.right(pos), list);
+            }
+            list.add(pos);
+            if (binTree.hasLeft(pos)) {
+                predecessorsSubtree(binTree.left(pos), list);
+            }
+        }
+    }
+
     /*
+    // Método alternativo (recorre el ABB desde la raíz hasta las hojas)
+	public Iterable<Position<E>> predecessors(Position<E> pos){
+		List<Position<E>> list = new ArrayList<>();
+		if (!binTree.isEmpty()) {
+			Position<E> root = binTree.root();
+			predecessorsSearch(root, pos.getElement(), list);
+		}
+		return list;
+	}
+
+	private void predecessorsSearch(Position<E> node, E element, List<Position<E>> list) {
+		if (!binTree.isLeaf(node) && comparator.compare(node.getElement(), element) < 0) {	// Hay que asegurarse de no comparar los nodos hoja porque valen null
+			if (binTree.hasRight(node)) {
+				predecessorsSearch(binTree.right(node), element, list);
+			}
+			list.add(node);
+		}
+		if (binTree.hasLeft(node)) {
+			predecessorsSearch(binTree.left(node), element, list);
+		}
+	}
+	*/
+
+    /**
      * Ejercicio 2: findRange
      */
     /**Find range in binary search trees. */
     public Iterable<Position<E>> findRange(E minValue, E maxValue) throws RuntimeException{
-        throw new RuntimeException("Not implemented.");
+        List<Position<E>> list = new ArrayList<>();
+        if (!binTree.isEmpty()) {
+            findRangeAux(binTree.root(), minValue, maxValue, list);
+        }
+        return list;
     }
 
+    // Busca los elementos válidos desde la raíz hasta las hojas
+    // Hacer un treesearch para sacar el nodo e ir explorando desde ahí es ineficiente y complicado...
+    // Se podría hacer de esa forma igual que se ha hecho successors(), pero con una variable
+    // found que haga parar el método en el momento que se encuentra maxValue
+    private void findRangeAux(Position<E> node, E min, E max, List<Position<E>> list) {
+        if (!binTree.isLeaf(node)) {
+            int compareMin = comparator.compare(node.getElement(), min);
+            int compareMax = comparator.compare(node.getElement(), max);
 
-
-
-    public Iterable<Position<E>> predecessors(Position<E> pos){
-        throw new RuntimeException("Not implemented.");
+             if (compareMin >= 0 && compareMax <= 0) {
+                 if (binTree.hasLeft(node)) {
+                     findRangeAux(binTree.left(node), min, max, list);
+                 }
+                 list.add(node);
+                 if (binTree.hasRight(node)) {
+                     findRangeAux(binTree.right(node), min, max, list);
+                 }
+             } else if (compareMin < 0) {
+                if (binTree.hasRight(node)) {
+                    findRangeAux(binTree.right(node), min, max, list);
+                }
+             } else if (compareMax > 0) {
+                if (binTree.hasLeft(node)) {
+                    findRangeAux(binTree.left(node), min, max, list);
+                }
+             }
+        }
     }
-
 
 }
 

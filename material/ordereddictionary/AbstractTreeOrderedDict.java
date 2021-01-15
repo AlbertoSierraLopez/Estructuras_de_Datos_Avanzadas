@@ -194,7 +194,14 @@ abstract public class AbstractTreeOrderedDict<K, V> implements
     }
 
     public Iterable<Entry<K, V>> findRange(K minkey, K maxkey) {
-        throw new RuntimeException("Not implemented.");
+        List<Entry<K, V>> list = new ArrayList<>();
+        for (Position<Entry<K, V>> entry : bsTree) {
+            K key = entry.getElement().getKey();
+            if (keyComparator.compare(key, minkey) >= 0 && keyComparator.compare(key, maxkey) <= 0) {
+                list.add(entry.getElement());
+            }
+        }
+        return list;
     }
 
 }

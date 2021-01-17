@@ -27,6 +27,9 @@ public class Tweet {
 	public int getFavorite() {
 		return favorite;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return screenname + ":\n\t" + text.replace("\n", " ") + "\n\trt:" + retweets + " fav:" + favorite + "\n";
+	}
 }

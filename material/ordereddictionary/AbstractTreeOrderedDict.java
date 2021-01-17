@@ -195,11 +195,22 @@ abstract public class AbstractTreeOrderedDict<K, V> implements
 
     public Iterable<Entry<K, V>> findRange(K minkey, K maxkey) {
         List<Entry<K, V>> list = new ArrayList<>();
-        for (Position<Entry<K, V>> entry : bsTree) {
-            K key = entry.getElement().getKey();
-            if (keyComparator.compare(key, minkey) >= 0 && keyComparator.compare(key, maxkey) <= 0) {
-                list.add(entry.getElement());
+        for (Position<Entry<K, V>> pEntry : bsTree) {
+            DictEntry<K, V> dictEntry = checkEntry(pEntry.getElement());
+
+            if (dictEntry.compareTo(new DictEntry<>(minkey, null, null)) >= 0
+                    && dictEntry.compareTo(new DictEntry<>(maxkey, null, null)) <= 0) {
+                list.add(dictEntry);
             }
+        }
+        return list;
+    }
+
+    // Versión que aprovecha el método implementado en ABB y es más eficiente
+    public Iterable<Entry<K, V>> findRangeAlt(K minkey, K maxkey) {
+        List<Entry<K, V>> list = new ArrayList<>();
+        for (Position<Entry<K, V>> pEntry : bsTree.findRange(new DictEntry<>(minkey, null, null), new DictEntry<>(maxkey, null, null))) {
+            list.add(pEntry.getElement());
         }
         return list;
     }

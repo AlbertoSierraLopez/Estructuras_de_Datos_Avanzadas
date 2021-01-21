@@ -1,7 +1,7 @@
 package material.test.practica4;
 
 import material.maps.Entry;
-import material.maps.HashTableMapDH;
+import material.maps.HashTableMapSC;
 import material.maps.Map;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -17,11 +17,11 @@ class HashTableMapTest {
 
 
     public static <K,V> Map<K, V> newTestMapInstance() {
-        return new HashTableMapDH<>();
+        return new HashTableMapSC<>();
     }
 
     public <K,V> Map<K, V> newTestMapInstance(int capacity) {
-        return new HashTableMapDH<>(capacity);
+        return new HashTableMapSC<>(capacity);
     }
 
     @BeforeEach

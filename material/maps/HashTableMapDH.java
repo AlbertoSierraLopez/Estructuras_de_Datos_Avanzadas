@@ -6,6 +6,8 @@ package material.maps;
  */
 public class HashTableMapDH<K, V> extends AbstractHashTableMap<K, V> {
 
+    private int q = 7;
+
     public HashTableMapDH(int size) {
         super(size);
     }
@@ -20,6 +22,11 @@ public class HashTableMapDH<K, V> extends AbstractHashTableMap<K, V> {
 
     @Override
     protected int offset(K key, int i) {
-        throw new RuntimeException("Not yet implemented");
+        return i * d(key);
+    }
+
+    private int d(K key) {
+        int hashcode = hashValue(key);
+        return q - (hashcode % q);
     }
 }

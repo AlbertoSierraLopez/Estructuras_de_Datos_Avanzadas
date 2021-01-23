@@ -1,0 +1,30 @@
+6
+MakBukPro 2020 4
+CarabanchelPearStore 123456 100 5.0
+ValdevebasPearStore 123457 23 4.8
+ArroyomolinosPearStore 123458 104 4.9
+GuindoushoodPearStore 123459 1 0.1
+yMak 2019 3
+CarabanchelPearStore 123456 132 4.2
+ValdevebasPearStore 123457 123 3.9
+ArroyomolinosPearStore 123458 104 3.3
+yFon 2020 1
+SanSebastianPearStore 123460 1304 4.8
+MakBukPro 2019 6
+CarabanchelPearStore 123456 100 5.0
+ValdevebasPearStore 123457 23 4.8
+ArroyomolinosPearStore 123458 104 4.9
+GuindoushoodPearStore 123459 1 0.1
+SanSebastianPearStore 123460 1304 4.8
+PrincipePioPearStore 123444 1305 5.0
+yMak 2020 8
+CarabanchelPearStore 123456 100 5.0
+ValdevebasPearStore 123457 23 4.8
+ArroyomolinosPearStore 123458 104 4.9
+GuindoushoodPearStore 123459 1 0.1
+SanSebastianPearStore 123460 1304 4.8
+PrincipePioPearStore 123444 1305 5.0
+MostolesPearStore 1234321 200 2.7
+AlcorconPearStore 1234320 1 1.0
+yFon 2019 1
+AlcorconPearStore 123502 215 4.2

@@ -1,41 +1,40 @@
 package usecase.practica4;
 
+import java.util.Map;
+import java.util.HashMap;
+
 public class PearStore {
 
     private String name;
-    private int id;
-    private int units;
-    private double score;
+    private Integer id;
+    private Map<Product, Integer> unitsMap;
+    private Map<Product, Double> scoreMap;
 
     public PearStore(String name, int id) {
-        this(name, id, 0, 0.0);
-    }
-
-    public PearStore(String name, int id, int units, double score) {
         this.name = name;
         this.id = id;
-        this.units = units;
-        this.score = score;
+        unitsMap = new HashMap<Product, Integer>();
+        scoreMap = new HashMap<>();
     }
 
     public int getId() {
         return id;
     }
 
-    public int getUnits() {
-        return units;
+    public Integer getUnits(Product product) {
+        return unitsMap.get(product);
     }
 
-    public double getScore() {
-        return score;
+    public Double getScore(Product product) {
+        return scoreMap.get(product);
     }
 
-    public void setUnits(int units) {
-        this.units = units;
+    public void putUnits(Product product, Integer units) {
+        unitsMap.put(product, units);
     }
 
-    public void setScore(double score) {
-        this.score = score;
+    public void putScore(Product product, double score) {
+        scoreMap.put(product, score);
     }
 
     @Override
@@ -50,5 +49,10 @@ public class PearStore {
             return false;
         }
         return (p.getId() == id);
+    }
+
+    @Override
+    public int hashCode() {
+        return id.hashCode();
     }
 }

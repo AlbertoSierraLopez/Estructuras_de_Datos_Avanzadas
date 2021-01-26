@@ -270,8 +270,8 @@ public class LinkedBinarySearchTree<E> implements BinarySearchTree<E> {
 	 * Ejercicio 1: first, last, successors, predecessors
 	 */
 	public Position<E> first() throws RuntimeException {
-		if (binTree.isEmpty()) {
-			throw new RuntimeException("Tree is empty");
+		if (size == 0) {
+			throw new RuntimeException("No first element.");
 		}
 		Position<E> cursor = binTree.root();
 		while (binTree.hasLeft(cursor)) {
@@ -281,8 +281,8 @@ public class LinkedBinarySearchTree<E> implements BinarySearchTree<E> {
 	}
 
 	public Position<E> last() throws RuntimeException {
-		if (binTree.isEmpty()) {
-			throw new RuntimeException("Tree is empty");
+		if (size == 0) {
+			throw new RuntimeException("No last element.");
 		}
 		Position<E> cursor = binTree.root();
 		while (binTree.hasRight(cursor)) {
@@ -293,6 +293,7 @@ public class LinkedBinarySearchTree<E> implements BinarySearchTree<E> {
 
     public Iterable<Position<E>> successors(Position<E> pos){
         List<Position<E>> list = new ArrayList<>();
+        list.add(pos);	// Entra el propio elemento
 
         if (binTree.hasRight(pos)) {
             successorsSubtree(binTree.right(pos), list);
@@ -352,6 +353,7 @@ public class LinkedBinarySearchTree<E> implements BinarySearchTree<E> {
 
     public Iterable<Position<E>> predecessors(Position<E> pos){
         List<Position<E>> list = new ArrayList<>();
+		list.add(pos);	// Entra el propio elemento
 
         if (binTree.hasLeft(pos)) {
             predecessorsSubtree(binTree.left(pos), list);
@@ -414,8 +416,12 @@ public class LinkedBinarySearchTree<E> implements BinarySearchTree<E> {
      */
     /**Find range in binary search trees. */
     public Iterable<Position<E>> findRange(E minValue, E maxValue) throws RuntimeException{
-        List<Position<E>> list = new ArrayList<>();
-        if (!binTree.isEmpty()) {
+        if (comparator.compare(maxValue, minValue) < 0) {
+        	throw new RuntimeException("Invalid range. (min>max)");
+		}
+
+    	List<Position<E>> list = new ArrayList<>();
+        if (!(size == 0)) {
             findRangeAux(binTree.root(), minValue, maxValue, list);
         }
         return list;

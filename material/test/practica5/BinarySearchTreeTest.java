@@ -375,9 +375,9 @@ class BinarySearchTreeTest {
         assertEquals(expected, output);
 
         sb.setLength(0);
-        successors = b.successors(positions[7]);
+        successors = b.successors(positions[6]);
         assertNotNull(successors);
-        expected = " 7 7 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24";
+        expected = " 6 7 7 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24";
         successors.forEach(p -> sb.append(' ').append(p.getElement()));
         output = sb.toString();
         assertEquals(expected, output);

@@ -1,20 +1,18 @@
 package usecase.practica4;
 
-import material.maps.HashTableMapSC;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class PearRegister {
 
-    HashTableMapSC<Product, Iterable<PearStore>> pearMap;
+    Map<Product, List<PearStore>> productMap;
+    Map<Integer, PearStore> storeMap;
 
     public PearRegister() {
-        pearMap = new HashTableMapSC<>();
+        productMap = new HashMap<>();
+        storeMap = new HashMap<>();
     }
 
     public void loadFile(String pathToFile){
@@ -34,20 +32,30 @@ public class PearRegister {
 
                 // Crear List<PearStore>
                 List<PearStore> storeList = new ArrayList<>();
+
                 for (int j = 0; j < nStores; j++) {
                     line = reader.readLine().split(" ");
 
-                    // Crear pearStore y añadir a la lista
+                    // Crear o recoger pearStore y añadir a la lista
                     String storeName = line[0];
                     int id = Integer.parseInt(line[1]);
                     int units = Integer.parseInt(line[2]);
                     double score = Double.parseDouble(line[3]);
-                    PearStore store = new PearStore(storeName, id, units, score);
+
+                    PearStore store = storeMap.get(id);
+                    if (store == null) {
+                        store = new PearStore(storeName, id);
+                        storeMap.put(id, store);
+                    }
+
+                    store.putUnits(product, units);
+                    store.putScore(product, score);
+
                     storeList.add(store);
                 }
 
                 // Crear entrada en pearMap
-                pearMap.put(product, storeList);
+                productMap.put(product, storeList);
             }
 
         } catch (IOException e) {
@@ -56,34 +64,25 @@ public class PearRegister {
     }
 
     public void addProduct(Product producto, Iterable<PearStore> stores){
-        pearMap.put(producto, stores);
+        productMap.put(producto, (List<PearStore>) stores);
     }
 
     public void addSalesInPearStore(Product producto, PearStore store, int units, double score){
-        Iterable<PearStore> storeList = pearMap.get(producto);
-        if (storeList != null) {
-            Iterator<PearStore> it = storeList.iterator();
-            boolean found = false;
+        store.putUnits(producto, units);
+        store.putScore(producto, score);
 
-            while (!found && it.hasNext()) {
-                PearStore nextStore = it.next();
-                if (nextStore.equals(store)) {
-                    found = true;
-                    nextStore.setUnits(units);
-                    nextStore.setScore(score);
-                }
-            }
-        }
+        productMap.get(store).add(store);
+        storeMap.putIfAbsent(store.getId(), store);
     }
 
     public double getScoreOfProduct(Product producto){
         double score = 0.0;
         int numElems = 0;
 
-        Iterable<PearStore> storeList = pearMap.get(producto);
+        Iterable<PearStore> storeList = productMap.get(producto);
         if (storeList != null) {
             for (PearStore store : storeList) {
-                score += store.getScore();
+                score += store.getScore(producto);
                 numElems++;
             }
         }
@@ -95,10 +94,10 @@ public class PearRegister {
         PearStore bestStore = null;
         int maxUnits = -1;
 
-        Iterable<PearStore> storeList = pearMap.get(producto);
+        Iterable<PearStore> storeList = productMap.get(producto);
         if (storeList != null) {
             for (PearStore store : storeList) {
-                if (store.getUnits() > maxUnits) {
+                if (store.getUnits(producto) > maxUnits) {
                     bestStore = store;
                 }
             }
@@ -110,10 +109,10 @@ public class PearRegister {
     public int getUnits(Product producto){
         int units = 0;
 
-        Iterable<PearStore> storeList = pearMap.get(producto);
+        Iterable<PearStore> storeList = productMap.get(producto);
         if (storeList != null) {
             for (PearStore store : storeList) {
-                units += store.getUnits();
+                units += store.getUnits(producto);
             }
         }
 
@@ -121,6 +120,6 @@ public class PearRegister {
     }
 
     public boolean productExists(Product product){
-        return pearMap.get(product) != null;
+        return productMap.get(product) != null;
     }
 }

@@ -23,7 +23,7 @@ class PearRegisterTest {
     @org.junit.jupiter.api.Test
     void addProductAndProductExists() {
         Product producto = new Product("NewYMak", 2021);
-        PearStore pearStore = new PearStore("CarabanchelPearStore", 123456);
+        PearStore pearStore = new PearStore("MoratalazPearStore", 123456);
         List<PearStore> pearStoreList = new ArrayList<>();
         pearStoreList.add(pearStore);
         register.addProduct(producto, pearStoreList);

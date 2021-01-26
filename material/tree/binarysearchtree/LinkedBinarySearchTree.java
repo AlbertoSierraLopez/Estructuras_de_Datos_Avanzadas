@@ -266,6 +266,7 @@ public class LinkedBinarySearchTree<E> implements BinarySearchTree<E> {
 		return new BSTIterator<E>(this);
 	}
 
+
 	/**
 	 * Ejercicio 1: first, last, successors, predecessors
 	 */
@@ -291,125 +292,139 @@ public class LinkedBinarySearchTree<E> implements BinarySearchTree<E> {
 		return binTree.parent(cursor);	// Los nodos hoja son despreciables (null)
 	}
 
-    public Iterable<Position<E>> successors(Position<E> pos){
-        List<Position<E>> list = new ArrayList<>();
-        list.add(pos);	// Entra el propio elemento
+	public Iterable<Position<E>> successors(Position<E> pos) {
+		if (binTree.isLeaf(pos)) {	// Es nodo basura
+			throw new RuntimeException("This node has no successors.");
+		}
 
-        if (binTree.hasRight(pos)) {
-            successorsSubtree(binTree.right(pos), list);
-        }
+		List<Position<E>> list = new ArrayList<>();
+		list.add(pos);	// Entra el propio elemento
 
-        Position<E> current = pos;
-        Position<E> prev = current;
-        while (!binTree.isRoot(current)) {
-            prev = current;
-            current = binTree.parent(current);
-            if (binTree.hasLeft(current) && binTree.left(current) == prev) {
-                list.add(current);
-                if (binTree.hasRight(current)) {
-                    successorsSubtree(binTree.right(current), list);
-                }
-            }
-        }
+		// Explorar su sub-arbol derecho
+		if (binTree.hasRight(pos)) {
+			successorsAux(binTree.right(pos), list);
+		}
 
-        return list;
-    }
+		// Explorar sus ancestros
+		Position<E> cursor = pos;
+		Position<E> prev = cursor;
+		while (!binTree.isRoot(cursor)) {	// Subimos hasta la raíz
+			prev = cursor;
+			cursor = binTree.parent(cursor);
+			if (binTree.hasLeft(cursor) && binTree.left(cursor) == prev) {	// Si subimos desde la izquierda, el padre y el hermano derecho son mayores que el nodo
+				list.add(cursor);
+				if (binTree.hasRight(cursor)) {
+					successorsAux(binTree.right(cursor), list);
+				}
+			}
+		}
 
-    private void successorsSubtree(Position<E> pos, List<Position<E>> list) {
-	    if (!binTree.isLeaf(pos)) {
-            if (binTree.hasLeft(pos)) {
-                successorsSubtree(binTree.left(pos), list);
-            }
-            list.add(pos);
-            if (binTree.hasRight(pos)) {
-                successorsSubtree(binTree.right(pos), list);
-            }
-        }
-    }
+		return list;
+	}
 
-	/*
+	private void successorsAux(Position<E> node, List<Position<E>> list) {	// Meter el sub-arbol en la lista
+		if (!binTree.isLeaf(node)) {	// Ignorar nodos basura
+			if (binTree.hasLeft(node)) {
+				successorsAux(binTree.left(node), list);
+			}
+
+			list.add(node);
+
+			if (binTree.hasRight(node)) {
+				successorsAux(binTree.right(node), list);
+			}
+		}
+	}
+
 	// Método alternativo (recorre el ABB desde la raíz hasta las hojas)
-	public Iterable<Position<E>> successors(Position<E> pos){
+	public Iterable<Position<E>> successorsAlt(Position<E> pos){
 		List<Position<E>> list = new ArrayList<>();
 		if (!binTree.isEmpty()) {
 			Position<E> root = binTree.root();
-			successorsSearch(root, pos.getElement(), list);
+			successorsAltSearch(root, pos.getElement(), list);
 		}
 		return list;
 	}
 
-	private void successorsSearch(Position<E> node, E element, List<Position<E>> list) {
+	private void successorsAltSearch(Position<E> node, E element, List<Position<E>> list) {
 		if (!binTree.isLeaf(node) && comparator.compare(node.getElement(), element) > 0) {	// Hay que asegurarse de no comparar los nodos hoja porque valen null
 			if (binTree.hasLeft(node)) {
-				successorsSearch(binTree.left(node), element, list);
+				successorsAltSearch(binTree.left(node), element, list);
 			}
 			list.add(node);
 		}
 		if (binTree.hasRight(node)) {
-			successorsSearch(binTree.right(node), element, list);
+			successorsAltSearch(binTree.right(node), element, list);
 		}
 	}
-    */
 
-    public Iterable<Position<E>> predecessors(Position<E> pos){
-        List<Position<E>> list = new ArrayList<>();
+	public Iterable<Position<E>> predecessors(Position<E> pos) {
+		if (binTree.isLeaf(pos)) {	// Es nodo basura
+			throw new RuntimeException("This node has no predecessors.");
+		}
+
+		List<Position<E>> list = new ArrayList<>();
 		list.add(pos);	// Entra el propio elemento
 
-        if (binTree.hasLeft(pos)) {
-            predecessorsSubtree(binTree.left(pos), list);
-        }
+		// Explorar su sub-arbol izquierdo
+		if (binTree.hasLeft(pos)) {
+			predecessorsAux(binTree.left(pos), list);
+		}
 
-        Position<E> current = pos;
-        Position<E> prev = current;
-        while (!binTree.isRoot(current)) {
-            prev = current;
-            current = binTree.parent(current);
-            if (binTree.hasRight(current) && binTree.right(current) == prev) {
-                list.add(current);
-                if (binTree.hasLeft(current)) {
-                    predecessorsSubtree(binTree.left(current), list);
-                }
-            }
-        }
+		// Explorar sus ancestros
+		Position<E> cursor = pos;
+		Position<E> prev = cursor;
+		while (!binTree.isRoot(cursor)) {	// Subimos hasta la raíz
+			prev = cursor;
+			cursor = binTree.parent(cursor);
+			if (binTree.hasRight(cursor) && binTree.right(cursor) == prev) {	// Si subimos desde la derecha, el padre y el hermano izquierdo son menores que el nodo
+				list.add(cursor);
+				if (binTree.hasLeft((cursor))) {
+					predecessorsAux(binTree.left(cursor), list);
+				}
+			}
+		}
 
-        return list;
-    }
+		return list;
+	}
 
-    private void predecessorsSubtree(Position<E> pos, List<Position<E>> list) {
-        if (!binTree.isLeaf(pos)) {
-            if (binTree.hasRight(pos)) {
-                predecessorsSubtree(binTree.right(pos), list);
-            }
-            list.add(pos);
-            if (binTree.hasLeft(pos)) {
-                predecessorsSubtree(binTree.left(pos), list);
-            }
-        }
-    }
+	private void predecessorsAux(Position<E> node, List<Position<E>> list) {	// Meter el sub-arbol en la lista
+		if (!binTree.isLeaf(node)) {	// Ignorar nodos basura
+			if (binTree.hasRight(node)) {
+				predecessorsAux(binTree.right(node), list);
+			}
 
-    /*
+			list.add(node);
+
+			if (binTree.hasLeft(node)) {
+				predecessorsAux(binTree.left(node), list);
+			}
+		}
+	}
+
+
     // Método alternativo (recorre el ABB desde la raíz hasta las hojas)
-	public Iterable<Position<E>> predecessors(Position<E> pos){
+	public Iterable<Position<E>> predecessorsAlt(Position<E> pos){
 		List<Position<E>> list = new ArrayList<>();
 		if (!binTree.isEmpty()) {
 			Position<E> root = binTree.root();
-			predecessorsSearch(root, pos.getElement(), list);
+			predecessorsAltSearch(root, pos.getElement(), list);
 		}
 		return list;
 	}
 
-	private void predecessorsSearch(Position<E> node, E element, List<Position<E>> list) {
+	private void predecessorsAltSearch(Position<E> node, E element, List<Position<E>> list) {
 		if (!binTree.isLeaf(node) && comparator.compare(node.getElement(), element) < 0) {	// Hay que asegurarse de no comparar los nodos hoja porque valen null
 			if (binTree.hasRight(node)) {
-				predecessorsSearch(binTree.right(node), element, list);
+				predecessorsAltSearch(binTree.right(node), element, list);
 			}
 			list.add(node);
 		}
 		if (binTree.hasLeft(node)) {
-			predecessorsSearch(binTree.left(node), element, list);
+			predecessorsAltSearch(binTree.left(node), element, list);
 		}
 	}
-	*/
+
 
     /**
      * Ejercicio 2: findRange

@@ -339,7 +339,7 @@ public class LinkedBinarySearchTree<E> implements BinarySearchTree<E> {
 	// Método alternativo (recorre el ABB desde la raíz hasta las hojas)
 	public Iterable<Position<E>> successorsAlt(Position<E> pos){
 		List<Position<E>> list = new ArrayList<>();
-		if (!binTree.isEmpty()) {
+		if (!binTree.isEmpty() && pos.getElement() != null) {
 			Position<E> root = binTree.root();
 			successorsAltSearch(root, pos.getElement(), list);
 		}

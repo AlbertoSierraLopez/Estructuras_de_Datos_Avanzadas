@@ -2,7 +2,7 @@ package exams.junio_2014.usecase;
 
 import material.Position;
 
-public class Label implements Position<Label> {
+public class Label {
     private String text;
     private int font;
     private int[] position;
@@ -48,10 +48,5 @@ public class Label implements Position<Label> {
         rgb[0] = r;
         rgb[1] = g;
         rgb[2] = b;
-    }
-
-    @Override
-    public Label getElement() {
-        return this;
     }
 }

@@ -6,13 +6,12 @@ import material.tree.narytree.LinkedTree;
 import java.util.HashSet;
 import java.util.Set;
 
-public class FastLeafAccessTree<E> {
+public class FastLeafAccessTree<E> extends LinkedTree<E> {
 
-    LinkedTree<E> tree;
     Set<Position<E>> leaves;
 
     public FastLeafAccessTree() {
-        tree = new LinkedTree<>();
+        super();
         leaves = new HashSet<>();
     }
 
@@ -22,28 +21,31 @@ public class FastLeafAccessTree<E> {
 
 
     /* Los únicos métodos de LinkedTree que cambian: */
-
+    @Override
     public Position<E> addRoot(E e) throws RuntimeException {
-        Position<E> node = tree.addRoot(e);
+        Position<E> node = super.addRoot(e);
         leaves.add(node);
         return node;
     }
 
+    @Override
     public Position<E> add(E element, Position<E> p) {
-        Position<E> node = tree.add(element, p);
+        Position<E> node = super.add(element, p);
         leaves.add(node);
         leaves.remove(p);
         return node;
     }
 
+    @Override
     public void remove(Position<E> p) {
+        super.remove(p);
         leaves.remove(p);
-        tree.remove(p);
     }
 
+    @Override
     public void moveSubtree(Position<E> pOrig, Position<E> pDest) throws RuntimeException {
+        super.moveSubtree(pOrig, pDest);
         leaves.add(pOrig);
         leaves.remove(pDest);
-        tree.moveSubtree(pOrig, pDest);
     }
 }

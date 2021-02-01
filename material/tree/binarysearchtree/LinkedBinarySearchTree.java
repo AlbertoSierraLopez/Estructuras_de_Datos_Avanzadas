@@ -312,6 +312,7 @@ public class LinkedBinarySearchTree<E> implements BinarySearchTree<E> {
 			prev = cursor;
 			cursor = binTree.parent(cursor);
 			if (binTree.hasLeft(cursor) && binTree.left(cursor) == prev) {	// Si subimos desde la izquierda, el padre y el hermano derecho son mayores que el nodo
+//			if (comparator.compare(prev.getElement(), cursor.getElement()) < 0) {
 				list.add(cursor);
 				if (binTree.hasRight(cursor)) {
 					successorsAux(binTree.right(cursor), list);

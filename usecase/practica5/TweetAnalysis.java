@@ -54,8 +54,8 @@ public class TweetAnalysis {
 			// Sacar la información relevante sobre el tweet
 			String text = t.get("text").toString();
 			String username =  t.getJSONObject("user").get("name").toString();
-			int retweets = Integer.valueOf(t.get("retweet_count").toString());
-			int favorites = Integer.valueOf(t.get("favorite_count").toString());
+			int retweets = Integer.parseInt(t.get("retweet_count").toString());
+			int favorites = Integer.parseInt(t.get("favorite_count").toString());
 			int score = retweets + favorites;
 
 			// Insertar el tweet en el diccionario

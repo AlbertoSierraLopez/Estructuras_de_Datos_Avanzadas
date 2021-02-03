@@ -19,8 +19,8 @@ public class ArithmeticEvaluator {
         int indexOperator = -1;
         int i = 0;
         while (indexOperator == -1 && i < operators.length) {
-            // Se usa lastIndexOf porque, como la expresión se lee de derecha a izquierda, se tiene que
-            // construir de izquierda a derecha y empezando por los operadores con menor prioridad.
+            // Se usa lastIndexOf porque, como la expresión se lee de izquierda a derecha, se tiene que
+            // construir de derecha a izquierda y empezando por los operadores con menor prioridad.
             indexOperator = exp.lastIndexOf(operators[i]);
             i++;
         }

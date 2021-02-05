@@ -12,7 +12,6 @@ import java.util.*;
  * @author A. Duarte, J. Vélez, J. Sánchez-Oro, JD. Quintana
  */
 public class PreorderIteratorLazy<E> implements Iterator<Position<E>> {
-    //TODO: Implementar (alumnos)
     private Tree<E> tree;
     private Deque<Position<E>> stack;
 

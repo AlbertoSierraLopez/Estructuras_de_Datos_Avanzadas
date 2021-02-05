@@ -16,7 +16,6 @@ import java.util.function.Predicate;
  * @author A. Duarte, J. Vélez, J. Sánchez-Oro, JD. Quintana
  */
 public class PostorderIterator<E> implements Iterator<Position<E>> {
-    //TODO: Implementar (alumnos)
     private Tree<E> tree;
     private Deque<Position<E>> stack;
     private Predicate<Position<E>> predicate;

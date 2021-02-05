@@ -15,7 +15,6 @@ import java.util.function.Predicate;
  * @author A. Duarte, J. Vélez, J. Sánchez-Oro, JD. Quintana
  */
 public class PreorderIterator<E> implements Iterator<Position<E>> {
-    //TODO: Implementar (alumnos)
     private Tree<E> tree;
     private Queue<Position<E>> queue;
     private Predicate<Position<E>> predicate;

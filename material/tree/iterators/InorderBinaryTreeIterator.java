@@ -3,6 +3,7 @@ package material.tree.iterators;
 import material.Position;
 import material.tree.binarytree.BinaryTree;
 
+import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -15,7 +16,7 @@ import java.util.LinkedList;
  */
 public class InorderBinaryTreeIterator<T> implements Iterator<Position<T>> {
 
-    private Deque<Position<T>> nodeStack = new LinkedList<>();
+    private Deque<Position<T>> nodeStack = new ArrayDeque<>();
     private final BinaryTree<T> tree;
 
     public InorderBinaryTreeIterator(BinaryTree<T> tree) {
@@ -35,7 +36,7 @@ public class InorderBinaryTreeIterator<T> implements Iterator<Position<T>> {
 
         while (tree.hasLeft(node)) {
             node = tree.left(node);
-            nodeStack.addFirst(node);
+            nodeStack.push(node);
         }
     }
 
@@ -49,7 +50,7 @@ public class InorderBinaryTreeIterator<T> implements Iterator<Position<T>> {
      */
     @Override
     public Position<T> next() {
-        Position<T> aux = nodeStack.removeFirst();
+        Position<T> aux = nodeStack.pop();
         if (tree.hasRight(aux)) {
             goToLastInLeft(tree.right(aux));
         }
